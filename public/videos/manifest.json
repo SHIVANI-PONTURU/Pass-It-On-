@@ -1,0 +1,146 @@
+{
+ "note": "Mission films as videos: the cartoon recorded with its ElevenLabs voices. timeline = when each story line starts (seconds).",
+ "films": {
+  "surveyor-3": {
+   "file": "/videos/surveyor-3.mp4",
+   "seconds": 187,
+   "voiced": true,
+   "timeline": [
+    11.52,
+    21.71,
+    31.55,
+    34.99,
+    44.04,
+    56.19,
+    67.14,
+    77.91,
+    92.7,
+    103.55,
+    116.12,
+    122.56,
+    135.41,
+    138.16,
+    150.43,
+    166.63
+   ]
+  },
+  "apollo-12-alsep": {
+   "file": "/videos/apollo-12-alsep.mp4",
+   "seconds": 202,
+   "voiced": true,
+   "timeline": [
+    9.78,
+    20.93,
+    26.68,
+    37.32,
+    51.5,
+    65.25,
+    77.46,
+    90.91,
+    105.02,
+    114.17,
+    125.62,
+    137.03,
+    148.36,
+    151.23,
+    164.76,
+    177.29,
+    188.81
+   ]
+  },
+  "apollo-15-lrv": {
+   "file": "/videos/apollo-15-lrv.mp4",
+   "seconds": 175,
+   "voiced": true,
+   "timeline": [
+    7.62,
+    17.02,
+    28.49,
+    39.27,
+    50.95,
+    56.96,
+    69.71,
+    77.5,
+    91.43,
+    102.56,
+    116.75,
+    118.86,
+    132.78,
+    145.85,
+    156.04,
+    162.16
+   ]
+  },
+  "viking-landers": {
+   "file": "/videos/viking-landers.mp4",
+   "seconds": 193,
+   "voiced": true,
+   "timeline": [
+    7.02,
+    18.34,
+    23.68,
+    38.21,
+    52.99,
+    58.04,
+    66.58,
+    80.93,
+    89.85,
+    103.52,
+    115.26,
+    125.95,
+    141.0,
+    143.33,
+    161.05,
+    174.27
+   ]
+  },
+  "sojourner": {
+   "file": "/videos/sojourner.mp4",
+   "seconds": 167,
+   "voiced": true,
+   "timeline": [
+    7.49,
+    15.99,
+    22.64,
+    33.23,
+    43.07,
+    54.51,
+    63.56,
+    69.27,
+    81.85,
+    96.09,
+    102.86,
+    112.32,
+    118.49,
+    122.39,
+    133.21,
+    143.33,
+    153.45
+   ]
+  },
+  "spirit-opportunity": {
+   "file": "/videos/spirit-opportunity.mp4",
+   "seconds": 185,
+   "voiced": true,
+   "timeline": [
+    8.89,
+    16.55,
+    21.75,
+    35.15,
+    46.41,
+    58.75,
+    73.54,
+    82.69,
+    89.54,
+    97.18,
+    110.57,
+    119.48,
+    125.28,
+    132.77,
+    134.76,
+    150.62,
+    163.01
+   ]
+  }
+ }
+}
