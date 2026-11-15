@@ -1,0 +1,53 @@
+{
+  "generatedBy": "Google Gemini image generation (AI illustrations)",
+  "images": {
+    "moon-plain": {
+      "file": "moon-plain.jpg",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "The grey, dusty surface of the Moon: a gently rolling plain with small round craters and a few pebbles. Black sky full of tiny stars. The blue-and-white Earth hangs small in the sky at the upper left. Warm, painterly children's picture-book illustration with soft gouache textures and gentle light. Wide 16:9 landscape. The horizon sits a little above the middle of the picture; the whole lower half is a wide, flat, open, empty stretch of ground, so cartoon characters can stand on it. Leave the upper-right area calm and plain. No text, letters or numbers. No logos, flags or badges. No people or astronauts. No spacecraft, rockets, rovers, landers or machines of any kind.",
+      "created": "2026-11-15T02:17:14.087Z"
+    },
+    "moon-mountains": {
+      "file": "moon-mountains.jpg",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "The grey surface of the Moon at the foot of tall, rounded grey mountains on the far horizon, with a long winding valley in the distance. Black starry sky. The blue-and-white Earth small at the upper left. Warm, painterly children's picture-book illustration with soft gouache textures and gentle light. Wide 16:9 landscape. The horizon sits a little above the middle of the picture; the whole lower half is a wide, flat, open, empty stretch of ground, so cartoon characters can stand on it. Leave the upper-right area calm and plain. No text, letters or numbers. No logos, flags or badges. No people or astronauts. No spacecraft, rockets, rovers, landers or machines of any kind.",
+      "created": "2026-11-15T02:17:23.081Z"
+    },
+    "moon-night": {
+      "file": "moon-night.jpg",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "The Moon's surface during the long, cold lunar night: dark grey ground faintly lit by soft blue earthlight, deep black sky packed with stars, the blue Earth small at the upper left. Warm, painterly children's picture-book illustration with soft gouache textures and gentle light. Wide 16:9 landscape. The horizon sits a little above the middle of the picture; the whole lower half is a wide, flat, open, empty stretch of ground, so cartoon characters can stand on it. Leave the upper-right area calm and plain. No text, letters or numbers. No logos, flags or badges. No people or astronauts. No spacecraft, rockets, rovers, landers or machines of any kind.",
+      "created": "2026-11-15T02:17:31.293Z"
+    },
+    "mars-day": {
+      "file": "mars-day.jpg",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "The surface of Mars: a rocky reddish-orange plain with scattered brown rocks and soft dunes, a butterscotch-pink dusty sky, and a small pale Sun at the upper left. Warm, painterly children's picture-book illustration with soft gouache textures and gentle light. Wide 16:9 landscape. The horizon sits a little above the middle of the picture; the whole lower half is a wide, flat, open, empty stretch of ground, so cartoon characters can stand on it. Leave the upper-right area calm and plain. No text, letters or numbers. No logos, flags or badges. No people or astronauts. No spacecraft, rockets, rovers, landers or machines of any kind.",
+      "created": "2026-11-15T02:17:39.758Z"
+    },
+    "mars-plains": {
+      "file": "mars-plains.jpg",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Flat, dark, sandy plains on Mars stretching to a low crater rim on the horizon, small ripples in the sand, butterscotch-pink sky, small pale Sun at the upper left. Warm, painterly children's picture-book illustration with soft gouache textures and gentle light. Wide 16:9 landscape. The horizon sits a little above the middle of the picture; the whole lower half is a wide, flat, open, empty stretch of ground, so cartoon characters can stand on it. Leave the upper-right area calm and plain. No text, letters or numbers. No logos, flags or badges. No people or astronauts. No spacecraft, rockets, rovers, landers or machines of any kind.",
+      "created": "2026-11-15T02:17:48.291Z"
+    },
+    "mars-night": {
+      "file": "mars-night.jpg",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Mars at sunset: the sky fades from dusty pink to deep blue, with a small soft blue glow around the setting Sun low on the horizon (sunsets on Mars look blue), the first stars appearing, reddish ground in shadow. Warm, painterly children's picture-book illustration with soft gouache textures and gentle light. Wide 16:9 landscape. The horizon sits a little above the middle of the picture; the whole lower half is a wide, flat, open, empty stretch of ground, so cartoon characters can stand on it. Leave the upper-right area calm and plain. No text, letters or numbers. No logos, flags or badges. No people or astronauts. No spacecraft, rockets, rovers, landers or machines of any kind.",
+      "created": "2026-11-15T02:17:56.838Z"
+    },
+    "earth-day": {
+      "file": "earth-day.jpg",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "A sunny day on Earth: bright blue sky with soft white clouds above a flat green grassy field and gentle hills far away. Warm, painterly children's picture-book illustration with soft gouache textures and gentle light. Wide 16:9 landscape. The horizon sits a little above the middle of the picture; the whole lower half is a wide, flat, open, empty stretch of ground, so cartoon characters can stand on it. Leave the upper-right area calm and plain. No text, letters or numbers. No logos, flags or badges. No people or astronauts. No spacecraft, rockets, rovers, landers or machines of any kind.",
+      "created": "2026-11-15T02:18:17.391Z"
+    },
+    "lab": {
+      "file": "lab.jpg",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "A bright, very clean laboratory room: smooth pale blue walls and a plain light grey floor, soft even light, completely empty. Warm, painterly children's picture-book illustration with soft gouache textures and gentle light. Wide 16:9 landscape. The horizon sits a little above the middle of the picture; the whole lower half is a wide, flat, open, empty stretch of ground, so cartoon characters can stand on it. Leave the upper-right area calm and plain. No text, letters or numbers. No logos, flags or badges. No people or astronauts. No spacecraft, rockets, rovers, landers or machines of any kind.",
+      "created": "2026-11-15T02:18:26.739Z"
+    }
+  }
+}
