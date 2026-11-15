@@ -1,0 +1,2860 @@
+{
+  "meta": {
+    "project": "Pass It On - NASA Space Apps 2026, Abandoned but not Forgotten",
+    "retrieved": "2026-11-14",
+    "note": "Facts come from NSSDCA and NASA Science pages listed in each entry's sources. Story, simple and chip text are our own wording based on those facts. Items marked verify:true were not on the pages read - check before shipping.",
+    "dates": "Dates are UTC as given by NSSDCA. NASA Science sometimes gives US dates (e.g. Spirit landed Jan 3, 2004 US time = Jan 4 UTC).",
+    "coordinates": "Moon coordinates are from NSSDCA (LRO-derived). Mars coordinates are landing sites as given by NSSDCA; longitudes in degrees east.",
+    "images": {
+      "selection": "Photos were taken from the same NSSDCA and NASA Science pages as the facts, and each was viewed before being added. Photos where an astronaut is the main subject were left out.",
+      "uses": "hero = main photo for the stop; fact-card = small photo on the card; scene = shown during a story line or answer (anim links it to an animation); background = wide panorama; drawing-reference = for the artist, not shown to kids as a photo of the real thing on the Moon or Mars.",
+      "hosting": "Download these into the app (e.g. public/images/) instead of linking to NASA's servers, so the demo works on slow Wi-Fi and if pages move.",
+      "credit": "Show the credit line under each photo, and list NSSDCA and NASA Science in the submission's data references. Don't use the NASA logo."
+    }
+  },
+  "chapters": [
+    {
+      "id": "moon",
+      "title": "Back to the Moon",
+      "focusArea": "Returning humans to the Moon",
+      "stops": [
+        "surveyor-3",
+        "apollo-12-alsep",
+        "apollo-15-lrv"
+      ]
+    },
+    {
+      "id": "mars",
+      "title": "Deeper into the solar system",
+      "focusArea": "Preparing for missions deeper into the solar system",
+      "stops": [
+        "viking-landers",
+        "sojourner",
+        "spirit-opportunity"
+      ]
+    },
+    {
+      "id": "launch",
+      "title": "What they taught us",
+      "focusArea": "Expanding our understanding of the universe",
+      "stops": [],
+      "note": "Finale: Quill reviews the kit - what each machine revealed about the Moon's interior, Mars' watery past and the search for life - then launches."
+    }
+  ],
+  "machines": [
+    {
+      "id": "surveyor-3",
+      "name": "Surveyor 3",
+      "nssdcaId": "1967-035A",
+      "body": "moon",
+      "type": "robotic lander",
+      "status": "silent",
+      "facts": {
+        "launched": "1967-04-17",
+        "launchVehicle": "Atlas-Centaur",
+        "massKg": 296,
+        "landed": "1967-04-20",
+        "site": "Southeastern Oceanus Procellarum (Ocean of Storms), inside a 200 m crater on a 14 degree slope",
+        "lat": -3.0162,
+        "lonEast": 336.582,
+        "heightM": 3,
+        "instruments": [
+          "TV camera",
+          "surface sampler (scoop)"
+        ],
+        "landingStory": "Its radar was confused by bright rocks and its engines kept firing, so it touched down three times before settling.",
+        "work": "Took 6,326 TV pictures and dug trenches up to 18 cm deep with its scoop.",
+        "discovery": "Lunar soil was like wet sand and strong enough to hold an Apollo lunar module.",
+        "lastContact": "1967-05-04",
+        "howItEnded": "It did not wake up after the two-week lunar night.",
+        "afterlife": "On 1969-11-20 Apollo 12 astronauts Pete Conrad and Alan Bean walked over and removed about 10 kg of parts, including the TV camera, to study back on Earth. The camera is now at the Smithsonian National Air and Space Museum."
+      },
+      "parts": [
+        "legs",
+        "camera",
+        "scoop",
+        "solar-panel",
+        "antenna"
+      ],
+      "animations": [
+        "triple_bounce_landing",
+        "scoop_dig",
+        "camera_pan",
+        "sunset_sleep",
+        "astronauts_visit"
+      ],
+      "story": [
+        {
+          "beat": "hello",
+          "speaker": "machine",
+          "text": "Hello, rookie! I'm Surveyor 3, a robot lander. I've been sitting in a small crater on the Moon since April 1967.",
+          "simple": "Hi! I'm Surveyor 3, a robot that landed on the Moon in 1967. I'm still sitting there today.",
+          "anim": "camera_pan",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-2.gif"
+          },
+          "onScreen": "Surveyor 3 · the Moon · 1967",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "why",
+          "speaker": "machine",
+          "text": "Back then, nobody knew what the Moon's ground was really like. Was it hard rock, or deep, soft dust that a spaceship might sink into?",
+          "simple": "Nobody knew if the Moon's ground was hard or soft. A spaceship might sink into soft dust!",
+          "anim": "camera_pan",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-2.gif"
+          },
+          "onScreen": "Hard rock or soft dust?",
+          "scene": {
+            "kind": "stage",
+            "action": "think",
+            "bubble": "rock-or-dust"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "why",
+          "speaker": "quill",
+          "text": "So NASA sent you first, before any astronauts?",
+          "simple": "So you went first, before any people?",
+          "anim": "camera_pan",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-2.gif"
+          }
+        },
+        {
+          "beat": "why",
+          "speaker": "machine",
+          "text": "Exactly! My job was to land gently, test the ground, and tell NASA whether it was safe to send people.",
+          "simple": "Yes! I had to land gently, test the ground, and tell NASA if people could land safely.",
+          "anim": "camera_pan",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-2.gif"
+          },
+          "onScreen": "Job: test the ground for astronauts",
+          "scene": {
+            "kind": "stage",
+            "action": "think",
+            "bubble": "boot"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "built",
+          "speaker": "machine",
+          "text": "Engineers at the Hughes Aircraft Company built me, for NASA's Jet Propulsion Laboratory. The whole Surveyor programme cost 469 million dollars.",
+          "simple": "A company called Hughes Aircraft built me. All of the Surveyor robots together cost 469 million dollars.",
+          "anim": "built",
+          "visual": {
+            "type": "data",
+            "anim": "cost"
+          },
+          "onScreen": "Built by Hughes Aircraft",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "On 17 April 1967 an Atlas-Centaur rocket launched me. Three days later, on 20 April, I reached the Moon.",
+          "simple": "A big rocket launched me. Three days later I got to the Moon.",
+          "anim": "journey",
+          "visual": {
+            "type": "data",
+            "anim": "journey",
+            "to": "moon",
+            "days": 3,
+            "rocket": "Atlas-Centaur",
+            "launched": "17 April 1967",
+            "arrived": "20 April 1967"
+          },
+          "onScreen": "3 days to the Moon",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "My landing was bumpy. Bright rocks confused my radar, my engines kept firing, and I touched down three times before I finally settled.",
+          "simple": "My landing went wrong in a funny way. I bounced off the ground twice before I finally stopped.",
+          "anim": "triple_bounce_landing",
+          "visual": {
+            "type": "data",
+            "anim": "touchdowns"
+          },
+          "onScreen": "Touched down 3 times!",
+          "source": "https://science.nasa.gov/mission/surveyor-3/",
+          "scene": {
+            "kind": "landing",
+            "style": "hops",
+            "board": "/images/moon-surveyor-3-4.gif"
+          }
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "This is a Surveyor just like me, photographed on Earth. I'm about 3 meters tall and weigh 296 kilograms. My landing legs have round footpads that spread my weight on the ground.",
+          "simple": "This is a robot just like me, photographed on Earth. I'm almost twice as tall as a grown-up, with legs and round feet.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/moon-surveyor-3-6.jpg",
+            "part": "legs"
+          },
+          "onScreen": "3 m tall · 296 kg",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "My TV camera took the pictures, my antenna sent them home by radio, and my solar panel turned sunlight into electricity to power everything.",
+          "simple": "I had a camera to take pictures, an antenna to send them home, and a solar panel that made electricity from sunlight.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/moon-surveyor-3-6.jpg",
+            "part": "camera"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "I also had a scoop on an arm. Scientists on Earth sent me commands, and I dug little trenches up to 18 centimeters deep and pressed on the soil to see how strong it was.",
+          "simple": "I had a little shovel on an arm. I dug small holes in the dirt and pushed on it to see how firm it was.",
+          "anim": "scoop_dig",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-3.gif",
+            "part": "scoop"
+          },
+          "onScreen": "Trenches up to 18 cm deep",
+          "scene": {
+            "kind": "stage",
+            "action": "dig",
+            "extra": "trenches"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "Altogether, my camera sent home 6,326 pictures of the Moon around me.",
+          "simple": "I took lots and lots of photos. More than six thousand!",
+          "anim": "scoop_dig",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-3.gif"
+          },
+          "onScreen": "6,326 pictures",
+          "scene": {
+            "kind": "stage",
+            "action": "photo",
+            "counter": {
+              "to": 6326,
+              "label": "pictures sent home"
+            }
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "found",
+          "speaker": "machine",
+          "text": "Here's what I found: the Moon's soil felt like wet sand, and it was strong enough to hold up an Apollo lunar module. That told NASA that astronauts could land.",
+          "simple": "The Moon's dirt was firm, like wet sand at the beach. So a spaceship with people wouldn't sink.",
+          "anim": "scoop_dig",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-3.gif"
+          },
+          "onScreen": "Soil like wet sand: safe to land",
+          "scene": {
+            "kind": "stage",
+            "action": "dig",
+            "extra": "trenches",
+            "bubble": "check"
+          },
+          "source": "https://science.nasa.gov/mission/surveyor-3/"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "quill",
+          "text": "Why didn't you fly back home afterwards?",
+          "simple": "Why didn't you come home?",
+          "anim": "camera_pan",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-2.gif"
+          }
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "I was built for a one-way trip. When the two-week lunar night came, it got dark and very cold. I fell asleep on 4 May 1967 and never woke up.",
+          "simple": "I was only ever going one way. When the long, dark, cold night came, my power ran out and I went to sleep for good.",
+          "anim": "camera_pan",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-2.gif"
+          },
+          "onScreen": "Last heard from: 4 May 1967",
+          "scene": {
+            "kind": "stage",
+            "action": "sleep"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "But I wasn't forgotten. In November 1969, Apollo 12 astronauts Pete Conrad and Alan Bean landed nearby, walked over, and took my camera home. It's in a museum in Washington, D.C. today.",
+          "simple": "Later, two astronauts landed near me and came to visit! They took my camera back to Earth, and now it's in a museum.",
+          "anim": "astronauts_visit",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-1.gif"
+          },
+          "onScreen": "Visited by Apollo 12 · 1969",
+          "scene": {
+            "kind": "stage",
+            "action": "idle",
+            "extra": "visit"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "Studying my parts showed engineers how materials change after two and a half years on the Moon. That matters for Artemis, because new missions need equipment that lasts on the Moon for a long time.",
+          "simple": "Scientists studied my old parts to learn how things change on the Moon. That helps them build better machines for new Moon trips.",
+          "anim": "astronauts_visit",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-surveyor-3-5.gif"
+          },
+          "onScreen": "Next: Artemis",
+          "scene": {
+            "kind": "handoff",
+            "to": "astronaut"
+          },
+          "source": "https://science.nasa.gov/mission/surveyor-3/"
+        }
+      ],
+      "chips": [
+        {
+          "q": "Why were you left behind?",
+          "a": "I was built for a one-way trip. My job was to test the ground for the astronauts, not to fly home."
+        },
+        {
+          "q": "Are you still working?",
+          "a": "No. I stopped talking to Earth on May 4, 1967, after the Sun set. I've been resting in my crater ever since."
+        },
+        {
+          "q": "What happened to your camera?",
+          "a": "Apollo 12 astronauts took it home in 1969. Now it's in a museum in Washington, D.C., so people can see a camera that lived on the Moon."
+        }
+      ],
+      "lesson": {
+        "text": "Test the ground before you send people, and study how machines age in space.",
+        "nextMission": "Artemis missions need equipment that can survive on the Moon for a long time."
+      },
+      "backOnEarth": "The parts Apollo 12 brought home let engineers study how materials change after two and a half years on the Moon.",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A",
+        "https://science.nasa.gov/mission/surveyor-3/"
+      ],
+      "images": [
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/imgcat/hires/a12_h_48_7100.gif",
+          "caption": "The real Surveyor 3 on the Moon, photographed by Apollo 12 in 1969. The Apollo 12 lunar module is in the background, about 180 m away.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a12_h_48_7100.html",
+          "use": "hero",
+          "anim": "astronauts_visit",
+          "localPath": "/images/moon-surveyor-3-1.gif"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/imgcat/hires/a12_h_48_7121.gif",
+          "caption": "Surveyor 3 resting inside the edge of its small crater, two and a half years after it landed.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a12_h_48_7121.html",
+          "use": "fact-card",
+          "localPath": "/images/moon-surveyor-3-2.gif"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/imgcat/hires/a12_h_48_7129.gif",
+          "caption": "The trenches Surveyor 3 dug with its scoop in 1967, still there when Apollo 12 visited.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a12_h_48_7129.html",
+          "use": "scene",
+          "anim": "scoop_dig",
+          "localPath": "/images/moon-surveyor-3-3.gif"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/imgcat/hires/a12_h_48_7110.gif",
+          "caption": "One of Surveyor 3's footpads, with marks from its bouncy landing.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a12_h_48_7110.html",
+          "use": "scene",
+          "anim": "triple_bounce_landing",
+          "localPath": "/images/moon-surveyor-3-4.gif"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/imgcat/hires/a12_h_48_7138.gif",
+          "caption": "Close-up of Surveyor 3 after the astronauts removed its TV camera to bring home.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/imgcat/html/object_page/a12_h_48_7138.html",
+          "use": "scene",
+          "localPath": "/images/moon-surveyor-3-5.gif"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/surveyor_beach.jpg",
+          "caption": "A Surveyor spacecraft photographed on Earth, showing its legs, mast and solar panel.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A",
+          "use": "drawing-reference",
+          "note": "Photo taken on Earth, not the Moon. Good reference for the artist.",
+          "localPath": "/images/moon-surveyor-3-6.jpg",
+          "kind": "earth"
+        }
+      ],
+      "card": [
+        {
+          "label": "Launched",
+          "value": "17 April 1967"
+        },
+        {
+          "label": "Landed",
+          "value": "20 April 1967"
+        },
+        {
+          "label": "Where",
+          "value": "Ocean of Storms, Moon (3.02°S, 23.42°W)"
+        },
+        {
+          "label": "Weight",
+          "value": "296 kg"
+        },
+        {
+          "label": "Last heard from",
+          "value": "4 May 1967"
+        }
+      ],
+      "quillIntro": "First stop: the Moon's Ocean of Storms. A little robot has been waiting here since 1967. Let's say hello to Surveyor 3.",
+      "builtBy": [
+        {
+          "org": "Hughes Aircraft Company",
+          "role": "built the Surveyor landers for NASA's Jet Propulsion Laboratory",
+          "source": "https://www.nasa.gov/wp-content/uploads/static/history/SP-350/ch-5-4.html"
+        }
+      ],
+      "cost": {
+        "usd": 469000000,
+        "covers": "building and launching all seven Surveyor spacecraft",
+        "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A"
+      },
+      "partsInfo": [
+        {
+          "id": "legs",
+          "name": "Landing legs",
+          "does": "Round footpads spread my weight"
+        },
+        {
+          "id": "camera",
+          "name": "TV camera",
+          "does": "Sent home 6,326 pictures"
+        },
+        {
+          "id": "scoop",
+          "name": "Scoop",
+          "does": "Dug trenches up to 18 cm deep"
+        },
+        {
+          "id": "solar-panel",
+          "name": "Solar panel",
+          "does": "Turned sunlight into electricity"
+        },
+        {
+          "id": "antenna",
+          "name": "Antenna",
+          "does": "Sent everything home by radio"
+        }
+      ]
+    },
+    {
+      "id": "apollo-12-alsep",
+      "name": "Apollo 12 ALSEP (Apollo Lunar Surface Experiments Package)",
+      "nickname": "The science station",
+      "nssdcaId": "1969-099C",
+      "body": "moon",
+      "type": "science station left by astronauts",
+      "status": "silent",
+      "facts": {
+        "launched": "1969-11-14",
+        "launchVehicle": "Saturn V",
+        "landed": "1969-11-19",
+        "lunarModule": "Intrepid",
+        "crewOnSurface": [
+          "Charles 'Pete' Conrad",
+          "Alan Bean"
+        ],
+        "site": "Oceanus Procellarum, about 180 m from Surveyor 3",
+        "lat": -3.0094,
+        "lonEast": 336.5754,
+        "lonWestAsGiven": 23.4246,
+        "turnedOn": "1969-11-19",
+        "instruments": [
+          "passive seismometer",
+          "suprathermal ion detector",
+          "cold cathode ion gauge",
+          "lunar dust detector",
+          "lunar surface magnetometer",
+          "solar wind spectrometer"
+        ],
+        "power": "SNAP-27 radioisotope thermoelectric generator (RTG), about 70 W, heated by a plutonium-238 fuel capsule",
+        "firstMoonquakeMadeByPeople": "After the astronauts left, the empty lunar module ascent stage was crashed into the Moon about 60 km away, creating the first recorded artificial moonquake for the seismometer.",
+        "shutDown": "1977-09-30",
+        "howItEnded": "Switched off from Earth on 30 September 1977, along with all the other ALSEP stations.",
+        "descentStage": "The descent stage of the lunar module Intrepid served as the launch platform for the ascent stage and was left behind on the Moon.",
+        "apollo11Eagle": "Apollo 11's lunar module Eagle also left its descent stage on the Moon in July 1969, as a launch platform."
+      },
+      "parts": [
+        "central-station",
+        "antenna",
+        "rtg",
+        "seismometer",
+        "magnetometer"
+      ],
+      "animations": [
+        "astronauts_deploy",
+        "rtg_glow",
+        "seismic_wave",
+        "ascent_stage_impact",
+        "antenna_to_earth",
+        "switch_off"
+      ],
+      "story": [
+        {
+          "beat": "hello",
+          "speaker": "machine",
+          "text": "Hi there! I'm the science station that Apollo 12 left on the Moon in November 1969. My job was to keep doing science after the astronauts went home.",
+          "simple": "Hi! I'm a set of science tools that astronauts left on the Moon. I kept working after they went home.",
+          "anim": "astronauts_deploy",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-12-alsep-1.jpg"
+          },
+          "onScreen": "Apollo 12 science station · 1969",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "why",
+          "speaker": "quill",
+          "text": "Why leave science behind? Couldn't the astronauts just do the experiments themselves?",
+          "simple": "Why leave tools behind? Couldn't the astronauts do the science?",
+          "anim": "astronauts_deploy",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-12-alsep-1.jpg"
+          }
+        },
+        {
+          "beat": "why",
+          "speaker": "machine",
+          "text": "Astronauts could only stay on the Moon for a day or two. Some questions take years to answer, like how often the Moon shakes. So NASA left me to keep measuring.",
+          "simple": "Astronauts could only stay a short time. Some science takes years, so I stayed to keep watching.",
+          "anim": "astronauts_deploy",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-12-alsep-1.jpg"
+          },
+          "onScreen": "Science that keeps going for years",
+          "scene": {
+            "kind": "stage",
+            "action": "think",
+            "bubble": "calendar"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "built",
+          "speaker": "machine",
+          "text": "The Bendix Corporation in Ann Arbor, Michigan, designed and built science stations like me. When NASA chose Bendix in 1966, it expected the first four stations to cost about 17 million dollars.",
+          "simple": "A company called Bendix in Michigan built me. The first four science stations were expected to cost about 17 million dollars.",
+          "anim": "built",
+          "visual": {
+            "type": "data",
+            "anim": "cost"
+          },
+          "onScreen": "Built by Bendix · Michigan",
+          "source": "https://www.nasa.gov/wp-content/uploads/static/history/SP-4214/ch6-5.html"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "I launched on 14 November 1969 on a giant Saturn V rocket, packed inside the Apollo 12 lunar module, Intrepid. Five days later, on 19 November, we landed.",
+          "simple": "I rode to the Moon packed inside the astronauts' spaceship, on a giant rocket.",
+          "anim": "journey",
+          "visual": {
+            "type": "data",
+            "anim": "journey",
+            "to": "moon",
+            "days": 5,
+            "rocket": "Saturn V",
+            "launched": "14 November 1969",
+            "arrived": "19 November 1969"
+          },
+          "onScreen": "5 days to the Moon",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "We landed in the Ocean of Storms, only about 180 meters from Surveyor 3. Astronauts Pete Conrad and Alan Bean carried me out and set me up by hand.",
+          "simple": "We landed right next to Surveyor 3! Two astronauts carried me out and set me up.",
+          "anim": "astronauts_deploy",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-12-alsep-1.jpg"
+          },
+          "onScreen": "180 m from Surveyor 3",
+          "scene": {
+            "kind": "landing",
+            "style": "lm-near"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "Let me show you my parts. My central station was my brain and my radio. Flat cables connected it to my instruments, and its antenna sent their measurements to Earth, day and night.",
+          "simple": "My middle box was like my brain. It collected what my tools measured and sent it home by radio.",
+          "anim": "parts",
+          "visual": {
+            "type": "data",
+            "anim": "parts",
+            "part": "central-station"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "I had no solar panels. Instead, a generator heated by plutonium-238 turned heat into about 70 watts of electricity, day and night. That's roughly enough for one bright light bulb.",
+          "simple": "Instead of sunlight, I used a special heater that turns heat into electricity. It worked even in the dark.",
+          "anim": "power",
+          "visual": {
+            "type": "data",
+            "anim": "power",
+            "part": "rtg"
+          },
+          "onScreen": "About 70 watts, day and night",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "My most important instrument was a seismometer. It's like a super-sensitive ear pressed to the ground, feeling for the tiniest shakes.",
+          "simple": "My best tool could feel the Moon shake, even a tiny bit.",
+          "anim": "seismic_wave",
+          "visual": {
+            "type": "data",
+            "anim": "parts",
+            "part": "seismometer"
+          },
+          "onScreen": "Seismometer: feels moonquakes",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "I also measured the Moon's magnetism, the stream of tiny particles that blows from the Sun, called the solar wind, Moon dust, and the Moon's very thin layer of gas.",
+          "simple": "I also measured magnets, the wind of tiny bits from the Sun, dust, and the Moon's very thin gas.",
+          "anim": "parts",
+          "visual": {
+            "type": "data",
+            "anim": "parts",
+            "part": "magnetometer"
+          },
+          "onScreen": "6 instruments",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "Then something clever happened. After the astronauts left, the empty top part of their lunar module was crashed into the Moon on purpose, about 60 kilometers away.",
+          "simple": "After the astronauts left, scientists crashed an empty part of their spaceship into the Moon on purpose.",
+          "anim": "ascent_stage_impact",
+          "visual": {
+            "type": "data",
+            "anim": "seismogram"
+          },
+          "onScreen": "Crash on purpose: 60 km away",
+          "scene": {
+            "kind": "quake",
+            "stage": "crash"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "I felt the crash! It was the first moonquake ever made by people. Scientists studied how the shaking travelled through the Moon, a bit like tapping a melon to check what's inside.",
+          "simple": "I felt the Moon wobble, like a drum after you hit it. That told scientists about the inside of the Moon.",
+          "anim": "seismic_wave",
+          "visual": {
+            "type": "data",
+            "anim": "seismogram"
+          },
+          "onScreen": "First moonquake made by people",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "found",
+          "speaker": "quill",
+          "text": "What did all that shaking teach scientists?",
+          "simple": "What did the shaking teach them?",
+          "anim": "seismic_wave",
+          "visual": {
+            "type": "data",
+            "anim": "seismogram"
+          }
+        },
+        {
+          "beat": "found",
+          "speaker": "machine",
+          "text": "How shaking travels depends on what it passes through. So my measurements helped scientists learn what the inside of the Moon is like, and that helps us understand how rocky worlds like Earth are built.",
+          "simple": "The way shaking moves tells scientists what's deep inside the Moon. That helps them understand Earth too.",
+          "anim": "seismic_wave",
+          "visual": {
+            "type": "data",
+            "anim": "seismogram"
+          },
+          "onScreen": "Clues to the Moon's insides",
+          "scene": {
+            "kind": "quake",
+            "stage": "inside"
+          },
+          "source": "https://science.nasa.gov/missions/artemis/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "Something else stayed here with me: the bottom half of the lunar module. The astronauts used it as their launch pad to blast off, then left it behind. Apollo 11's Eagle left one too.",
+          "simple": "The bottom of the astronauts' spaceship stayed here too. It was their launch pad for going home.",
+          "anim": "descent_stage_launch_pad",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-12-alsep-2.gif"
+          },
+          "onScreen": "Left behind: the launch pad",
+          "scene": {
+            "kind": "liftoff"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "I sent data home for almost eight years. On 30 September 1977, NASA switched me off from Earth, along with all the other Apollo science stations.",
+          "simple": "I worked for almost eight years. Then NASA turned me off from Earth.",
+          "anim": "switch_off",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-12-alsep-1.jpg"
+          },
+          "onScreen": "Switched off: 30 September 1977",
+          "scene": {
+            "kind": "stage",
+            "action": "off"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "Now new science instruments are planned for the Artemis landing sites, to carry on what I started.",
+          "simple": "Soon, new science tools will go to the Moon with Artemis.",
+          "anim": "switch_off",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-12-alsep-1.jpg"
+          },
+          "onScreen": "Next: Artemis",
+          "scene": {
+            "kind": "handoff",
+            "to": "astronaut"
+          },
+          "source": "https://science.nasa.gov/missions/artemis/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/"
+        }
+      ],
+      "chips": [
+        {
+          "q": "Why were you left behind?",
+          "a": "That was the plan! Astronauts could only stay a day or two, so they left me to keep doing science for years after they went home."
+        },
+        {
+          "q": "Are you still working?",
+          "a": "No. NASA switched off all the Apollo science stations on 30 September 1977."
+        },
+        {
+          "q": "Who is your neighbour?",
+          "a": "Surveyor 3! Apollo 12 landed about 180 meters away from it, and the astronauts walked over to visit."
+        },
+        {
+          "q": "What else did Apollo 12 leave here?",
+          "a": "The bottom half of the lunar module, Intrepid. The astronauts used it as a launch pad to take off, and it stayed behind on the Moon. Apollo 11's Eagle left its bottom half too, back in July 1969."
+        }
+      ],
+      "lesson": {
+        "text": "Leave science behind that keeps working after people go home.",
+        "nextMission": "New science instruments planned for Artemis landing sites."
+      },
+      "backOnEarth": "Studying moonquakes helps scientists understand how rocky worlds, including Earth, are built inside.",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+        "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.txt",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+        "https://www.nasa.gov/wp-content/uploads/static/history/SP-4214/ch6-5.html",
+        "https://science.nasa.gov/missions/artemis/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/"
+      ],
+      "images": [
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/apollo12_lunar_module.jpg",
+          "caption": "The Apollo 12 lunar module, Intrepid, flying above the Moon. It carried the science station down to the surface.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+          "use": "hero",
+          "localPath": "/images/moon-apollo-12-alsep-1.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif",
+          "caption": "Diagram of an Apollo lunar module. The bottom half (descent stage) stayed on the Moon.",
+          "credit": "NASA History Office",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+          "use": "drawing-reference",
+          "localPath": "/images/moon-apollo-12-alsep-2.gif",
+          "kind": "diagram"
+        }
+      ],
+      "card": [
+        {
+          "label": "Landed",
+          "value": "19 November 1969, with Apollo 12"
+        },
+        {
+          "label": "Where",
+          "value": "Ocean of Storms, Moon (3.01°S, 23.42°W)"
+        },
+        {
+          "label": "Power",
+          "value": "Plutonium-238 heat generator, about 70 W"
+        },
+        {
+          "label": "Instruments",
+          "value": "6, including a seismometer"
+        },
+        {
+          "label": "Switched off",
+          "value": "30 September 1977"
+        }
+      ],
+      "quillIntro": "Just a short walk away, astronauts set up a science station in 1969. It listened to the Moon for almost eight years.",
+      "builtBy": [
+        {
+          "org": "Bendix Corporation, Ann Arbor, Michigan",
+          "role": "designed and built the Apollo science stations",
+          "source": "https://www.nasa.gov/wp-content/uploads/static/history/SP-4214/ch6-5.html"
+        }
+      ],
+      "cost": {
+        "usd": 17000000,
+        "covers": "the expected cost of the first four science stations when NASA chose Bendix in 1966",
+        "source": "https://www.nasa.gov/wp-content/uploads/static/history/SP-4214/ch6-5.html"
+      },
+      "partsInfo": [
+        {
+          "id": "central-station",
+          "name": "Central station",
+          "does": "Collected the data and sent it home"
+        },
+        {
+          "id": "antenna",
+          "name": "Antenna",
+          "does": "Radio link to Earth"
+        },
+        {
+          "id": "rtg",
+          "name": "Plutonium generator",
+          "does": "About 70 watts, day and night"
+        },
+        {
+          "id": "seismometer",
+          "name": "Seismometer",
+          "does": "Felt the Moon shake"
+        },
+        {
+          "id": "magnetometer",
+          "name": "Magnetometer",
+          "does": "Measured the Moon's magnetism"
+        }
+      ]
+    },
+    {
+      "id": "apollo-15-lrv",
+      "name": "Lunar Roving Vehicle (Apollo 15)",
+      "nickname": "The moon buggy",
+      "nssdcaId": "1971-063C",
+      "body": "moon",
+      "type": "crewed electric rover",
+      "status": "silent",
+      "facts": {
+        "launched": "1971-07-26",
+        "landed": "1971-07-30",
+        "lunarModule": "Falcon",
+        "drivers": [
+          "David Scott",
+          "James Irwin"
+        ],
+        "site": "Hadley-Apennine, Mare Imbrium, at the foot of the Apennine mountains",
+        "lat": 26.13239,
+        "lonEast": 3.6333,
+        "siteNote": "Coordinates are the Apollo 15 lunar module landing site; the rover was left near it.",
+        "massKg": 210,
+        "payloadKg": 490,
+        "lengthM": 3.1,
+        "wheelDiameterCm": 81.8,
+        "wheels": "Woven zinc-coated steel wire tires with titanium chevrons for grip; each wheel had its own electric motor",
+        "power": "Two 36-volt silver-zinc batteries (not rechargeable)",
+        "navigation": "A gyro and odometer fed a computer that tracked the way back to the lunar module; a Sun-shadow device gave a backup heading",
+        "foldUp": "Folded up to fit in a bay on the side of the lunar module",
+        "distanceKm": 27.8,
+        "drivingTime": "3 hours 2 minutes",
+        "longestTraverseKm": 12.5,
+        "maxRangeFromLanderKm": 5.0,
+        "firstUse": "Apollo 15 was the first time a rover like this was used on the Moon.",
+        "otherRovers": "Three LRVs were driven on the Moon: Apollo 15, 16 and 17. Apollo 17's went 35.9 km.",
+        "alsoAtSite": "Apollo 15 ALSEP science station (seven instruments, including a heat flow experiment), switched off 1977-09-30",
+        "howItEnded": "Parked on the Moon when the astronauts left on 1971-08-02. Its batteries were never meant to be recharged.",
+        "descentStage": "The descent stage of the lunar module Falcon served as the launch platform for the ascent stage and was left behind on the Moon.",
+        "laserReflector": "Apollo 15 left a laser ranging retroreflector with 300 corner-cube mirrors; the Apollo 11 and 14 arrays have 100 each. Observatories on Earth still fire lasers at these reflectors to measure the Earth-Moon distance.",
+        "topSpeed": "On level ground the Apollo 15 rover reached a maximum of about 13 km/h (7 mph). The Apollo 16 rover later reached 17 km/h going downhill."
+      },
+      "parts": [
+        "wheels",
+        "seats",
+        "hand-controller",
+        "antenna",
+        "batteries",
+        "navigation-panel"
+      ],
+      "animations": [
+        "unfold_from_lander",
+        "drive_across",
+        "wheel_closeup",
+        "dust_rooster_tail",
+        "sun_shadow_compass",
+        "park_and_wave",
+        "laser_ranging",
+        "descent_stage_launch_pad"
+      ],
+      "story": [
+        {
+          "beat": "hello",
+          "speaker": "machine",
+          "text": "Hop in! I'm the Lunar Roving Vehicle from Apollo 15, the moon buggy. I've been parked at the foot of the Moon's Apennine mountains since 1971.",
+          "simple": "Hi! I'm a car for the Moon, a moon buggy. I've been parked on the Moon since 1971.",
+          "anim": "wheel_closeup",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-15-lrv-1.jpg"
+          },
+          "onScreen": "Lunar Roving Vehicle · Apollo 15 · 1971",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C"
+        },
+        {
+          "beat": "why",
+          "speaker": "machine",
+          "text": "Walking on the Moon in a big spacesuit is slow, hard work, so astronauts couldn't go far from their lander. NASA built me so they could drive much farther and explore more places.",
+          "simple": "Walking in a spacesuit is hard work. I let astronauts drive much farther.",
+          "anim": "wheel_closeup",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-15-lrv-1.jpg"
+          },
+          "onScreen": "Job: help astronauts explore farther",
+          "scene": {
+            "kind": "stage",
+            "action": "think",
+            "bubble": "distance"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        },
+        {
+          "beat": "built",
+          "speaker": "machine",
+          "text": "The Boeing company built me, with a company called Delco as a big helper. The contract started at 19 million dollars, but the rovers ended up costing 38 million.",
+          "simple": "A company called Boeing built me. I cost 38 million dollars, twice what was planned.",
+          "anim": "built",
+          "visual": {
+            "type": "data",
+            "anim": "cost"
+          },
+          "onScreen": "Built by Boeing · $38 million",
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "On 26 July 1971 I launched with Apollo 15, folded up flat in a bay on the side of the lunar module, Falcon. Four days later we landed at Hadley.",
+          "simple": "I traveled to the Moon folded up small, like a camping chair, on the side of the spaceship.",
+          "anim": "journey",
+          "visual": {
+            "type": "data",
+            "anim": "journey",
+            "to": "moon",
+            "days": 4,
+            "launched": "26 July 1971",
+            "arrived": "30 July 1971",
+            "rocket": "Saturn V"
+          },
+          "onScreen": "4 days to the Moon",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "Once we landed, the astronauts unfolded me from the side of the lander, and I was ready to drive.",
+          "simple": "On the Moon, the astronauts unfolded me and I was ready to go.",
+          "anim": "unfold_from_lander",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-15-lrv-5.jpg"
+          },
+          "onScreen": "Unfolded on the Moon",
+          "scene": {
+            "kind": "landing",
+            "style": "unfold"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "Let me show you my parts. I'm electric, and each of my four wheels has its own motor. My tires are woven from zinc-coated steel wire, with titanium strips for grip, instead of air-filled rubber.",
+          "simple": "I run on batteries, like a toy car. Each wheel has its own motor, and my tires are made of metal mesh instead of rubber.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/moon-apollo-15-lrv-3.jpg",
+            "part": "wheels"
+          },
+          "onScreen": "4 wheels · 4 motors",
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "My power came from two 36-volt silver-zinc batteries. They couldn't be recharged, so every drive was planned carefully.",
+          "simple": "I had two big batteries. They couldn't be charged again, so the astronauts planned their drives carefully.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/moon-apollo-15-lrv-3.jpg",
+            "part": "batteries"
+          },
+          "onScreen": "2 batteries · 36 volts",
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "I'm 3.1 meters long and weigh 210 kilograms, but I could carry 490 kilograms: two astronauts in spacesuits plus their tools and rock samples. They drove me with a hand controller.",
+          "simple": "I'm longer than a sofa, and I could carry two astronauts plus their tools and rocks.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/moon-apollo-15-lrv-3.jpg",
+            "part": "hand-controller"
+          },
+          "onScreen": "Carried 490 kg",
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "There's no GPS on the Moon. A gyro and an odometer fed a small computer that always knew the way back to the lander, and a little Sun-shadow tool worked as a backup compass.",
+          "simple": "There are no road signs on the Moon! My tools remembered how far and which way we went, so we never got lost.",
+          "anim": "sun_shadow_compass",
+          "visual": {
+            "type": "parts",
+            "image": "/images/moon-apollo-15-lrv-4.jpg",
+            "part": "navigation-panel"
+          },
+          "onScreen": "Never got lost",
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "Astronauts David Scott and James Irwin drove me 27.8 kilometers, in 3 hours and 2 minutes of driving. Our longest trip was 12.5 kilometers, and we went as far as 5 kilometers from the lander.",
+          "simple": "Two astronauts drove me a long way, much farther than they could walk.",
+          "anim": "drive_across",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-15-lrv-2.jpg"
+          },
+          "onScreen": "27.8 km driven",
+          "scene": {
+            "kind": "stage",
+            "action": "drive",
+            "counter": {
+              "to": 27.8,
+              "decimals": 1,
+              "label": "km driven on the Moon"
+            }
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        },
+        {
+          "beat": "found",
+          "speaker": "quill",
+          "text": "Were you the only moon buggy?",
+          "simple": "Are you the only moon buggy?",
+          "anim": "drive_across",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-15-lrv-2.jpg"
+          }
+        },
+        {
+          "beat": "found",
+          "speaker": "machine",
+          "text": "No! Apollo 15 was the first time a rover like me was used on the Moon. Two more followed on Apollo 16 and 17, and Apollo 17's drove 35.9 kilometers. All three are still parked on the Moon.",
+          "simple": "There are three moon buggies on the Moon. I was the first one.",
+          "anim": "drive_across",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-15-lrv-2.jpg"
+          },
+          "onScreen": "3 moon buggies on the Moon",
+          "scene": {
+            "kind": "stage",
+            "action": "idle",
+            "extra": "three-buggies"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        },
+        {
+          "beat": "found",
+          "speaker": "machine",
+          "text": "Not everything here is asleep. The astronauts also set up a laser reflector with 300 small mirrors, and scientists on Earth still bounce laser beams off it to measure how far away the Moon is.",
+          "simple": "Something near me still works! It's a panel of mirrors. Scientists shine a laser at it from Earth and time how long the light takes to come back.",
+          "anim": "laser_ranging",
+          "visual": {
+            "type": "data",
+            "anim": "laser"
+          },
+          "onScreen": "Still in use: 300 mirrors",
+          "source": "https://earth.gsfc.nasa.gov/geo/projects/sgp/updates/reflectors-placed-moon-apollo-11-astronauts-50-years-ago-continue-provide"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "When the astronauts left on 2 August 1971, I stayed parked here for good. I was built for a one-way trip, and my batteries couldn't be recharged.",
+          "simple": "When the astronauts flew home, I stayed parked on the Moon. I was built for a one-way trip.",
+          "anim": "park_and_wave",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-15-lrv-1.jpg"
+          },
+          "onScreen": "Parked since 2 August 1971",
+          "scene": {
+            "kind": "stage",
+            "action": "sleep"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "The bottom half of Falcon stayed here with me. It was the launch pad the astronauts blasted off from.",
+          "simple": "The bottom of their spaceship stayed too. It was their launch pad.",
+          "anim": "descent_stage_launch_pad",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-15-lrv-2.jpg"
+          },
+          "onScreen": "Left behind: Falcon's launch pad",
+          "scene": {
+            "kind": "liftoff"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "Artemis astronauts will drive a new lunar rover too, so they can explore far, just like we did.",
+          "simple": "Soon Artemis astronauts will drive a new Moon car, just like me.",
+          "anim": "park_and_wave",
+          "visual": {
+            "type": "photo",
+            "image": "/images/moon-apollo-15-lrv-1.jpg"
+          },
+          "onScreen": "Next: a new Artemis rover",
+          "scene": {
+            "kind": "handoff",
+            "to": "moon-rover"
+          },
+          "source": "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/"
+        }
+      ],
+      "chips": [
+        {
+          "q": "Why were you left behind?",
+          "a": "I was built for a one-way trip, and my batteries couldn't be recharged, so I was always going to stay on the Moon."
+        },
+        {
+          "q": "How fast could you go?",
+          "a": "On flat ground I reached about 13 kilometers per hour, a bit faster than you can jog. A later moon buggy on Apollo 16 hit 17 kilometers per hour going downhill!"
+        },
+        {
+          "q": "Are there other moon buggies?",
+          "a": "Yes! Three were driven on the Moon, on Apollo 15, 16 and 17. Apollo 17's buggy drove 35.9 km."
+        },
+        {
+          "q": "Is anything here still working?",
+          "a": "Yes! The laser reflector Apollo 15 left near me has 300 little mirrors. Scientists on Earth still bounce lasers off it to measure exactly how far away the Moon is."
+        },
+        {
+          "q": "What else is parked here?",
+          "a": "The bottom half of the lunar module Falcon, which was the astronauts' launch pad, the Apollo 15 science station, and the laser reflector."
+        }
+      ],
+      "lesson": {
+        "text": "Wheels let explorers go much farther and do more science.",
+        "nextMission": "Artemis astronauts will also drive a new lunar rover."
+      },
+      "backOnEarth": "Driving lets explorers bring back rocks from many places, not just next to the lander.",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+        "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+        "https://earth.gsfc.nasa.gov/geo/projects/sgp/updates/reflectors-placed-moon-apollo-11-astronauts-50-years-ago-continue-provide",
+        "https://ilrs.gsfc.nasa.gov/missions/satellite_missions/current_missions/ap11_reflector.html",
+        "https://www.nasa.gov/history/alsj/WOTM/WOTM-LRVPerformance.html",
+        "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/"
+      ],
+      "images": [
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/as15_88_11901.jpg",
+          "caption": "The real Apollo 15 moon buggy parked on the Moon, with its dish antenna and woven-wire wheels.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+          "use": "hero",
+          "anim": "wheel_closeup",
+          "localPath": "/images/moon-apollo-15-lrv-1.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_15_lm.jpg",
+          "caption": "The Apollo 15 lunar module, Falcon, at Hadley with the Apennine mountains behind. Look for the rover tracks in the dust!",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+          "use": "scene",
+          "anim": "drive_across",
+          "localPath": "/images/moon-apollo-15-lrv-2.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/lrv_s71_00166.jpg",
+          "caption": "A Lunar Roving Vehicle on Earth before flight.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+          "use": "drawing-reference",
+          "note": "Photo taken on Earth.",
+          "localPath": "/images/moon-apollo-15-lrv-3.jpg",
+          "kind": "earth"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/lrv_display.jpg",
+          "caption": "The rover's control and display panel, including the Sun-shadow device used as a backup compass.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+          "use": "scene",
+          "note": "Checked 14 Nov: a NASA line drawing of the control and display panel, not a photo. Label it Diagram.",
+          "anim": "sun_shadow_compass",
+          "localPath": "/images/moon-apollo-15-lrv-4.jpg",
+          "kind": "diagram"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/lrv_deployment_art.jpg",
+          "caption": "Artist's drawing of how the rover unfolded from the side of the lunar module.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+          "use": "drawing-reference",
+          "note": "Illustration, not a photo. Label it as a drawing if shown to kids.",
+          "anim": "unfold_from_lander",
+          "localPath": "/images/moon-apollo-15-lrv-5.jpg",
+          "kind": "drawing"
+        }
+      ],
+      "card": [
+        {
+          "label": "Landed",
+          "value": "30 July 1971, with Apollo 15"
+        },
+        {
+          "label": "Where",
+          "value": "Hadley-Apennine, Moon (26.13°N, 3.63°E)"
+        },
+        {
+          "label": "Weight",
+          "value": "210 kg"
+        },
+        {
+          "label": "Distance driven",
+          "value": "27.8 km"
+        },
+        {
+          "label": "Farthest from lander",
+          "value": "5.0 km"
+        },
+        {
+          "label": "Status",
+          "value": "Parked for good"
+        }
+      ],
+      "quillIntro": "Now let's zoom to the foot of the Apennine mountains, where a moon buggy is still parked. Hop in!",
+      "builtBy": [
+        {
+          "org": "Boeing",
+          "role": "built the moon buggies, with Delco as a major subcontractor",
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+        }
+      ],
+      "cost": {
+        "usd": 38000000,
+        "covers": "the final cost of the rover contract, which started at 19 million dollars",
+        "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+      },
+      "partsInfo": [
+        {
+          "id": "wheels",
+          "name": "Wire-mesh wheels",
+          "does": "Each one has its own motor"
+        },
+        {
+          "id": "batteries",
+          "name": "Two batteries",
+          "does": "36 volts, not rechargeable"
+        },
+        {
+          "id": "seats",
+          "name": "Two seats",
+          "does": "For two astronauts"
+        },
+        {
+          "id": "hand-controller",
+          "name": "Hand controller",
+          "does": "To steer and drive"
+        },
+        {
+          "id": "navigation-panel",
+          "name": "Navigation panel",
+          "does": "Gyro, odometer, Sun-shadow compass"
+        },
+        {
+          "id": "antenna",
+          "name": "Dish antenna",
+          "does": "Radio link to Earth"
+        }
+      ]
+    },
+    {
+      "id": "viking-landers",
+      "name": "Viking 1 and Viking 2 Landers",
+      "nssdcaId": [
+        "1975-075C",
+        "1975-083C"
+      ],
+      "body": "mars",
+      "type": "robotic landers",
+      "status": "silent",
+      "facts": {
+        "viking1": {
+          "launched": "1975-08-20",
+          "landed": "1976-07-20",
+          "site": "Western Chryse Planitia",
+          "lat": 22.27,
+          "lonEast": 312.05,
+          "namedAfter": "Thomas Mutch Memorial Station",
+          "ended": "November 1982",
+          "endNote": "NASA Science: stopped operating 11 Nov 1982 after a faulty command. NSSDCA: contact lost 13 Nov 1982."
+        },
+        "viking2": {
+          "launched": "1975-09-09",
+          "landed": "1976-09-03",
+          "site": "Utopia Planitia, about 200 km west of crater Mie",
+          "lat": 47.6673,
+          "lonEast": 134.2809,
+          "namedAfter": "Gerald Soffen Memorial Station",
+          "landingQuirk": "Settled with one leg on a rock, tilted 8.2 degrees",
+          "ended": "1980-04-11",
+          "endNote": "Turned off when its batteries failed, after 1,281 Mars days."
+        },
+        "massKg": 572,
+        "power": "Two radioisotope thermoelectric generators (plutonium-238) per lander",
+        "instruments": [
+          "two cameras",
+          "biology laboratory",
+          "gas chromatograph mass spectrometer",
+          "X-ray fluorescence spectrometer",
+          "seismometer",
+          "weather station",
+          "sampler arm"
+        ],
+        "firsts": "Viking 1 made NASA's first truly successful landing on Mars and sent the first images from the surface.",
+        "photos": "The two landers returned 4,500 photos of their landing sites.",
+        "cleanliness": "Each lander was sealed in a bioshield at launch so Earth germs wouldn't reach Mars.",
+        "lifeSearch": "Their main goal was to look for evidence of life on Mars.",
+        "lifeResult": "Data from the soil samples could be read as a weak positive for life, but the main test for organic compounds gave negative results. Scientists still debate the results, and the question of life on Mars remains open."
+      },
+      "parts": [
+        "legs",
+        "cameras",
+        "sampler-arm",
+        "weather-boom",
+        "rtg",
+        "biology-lab"
+      ],
+      "animations": [
+        "parachute_and_rockets",
+        "first_photo_scan",
+        "arm_scoop_soil",
+        "biology_lab_bubbles",
+        "weather_boom_wind",
+        "twins_on_globe"
+      ],
+      "story": [
+        {
+          "beat": "hello",
+          "speaker": "machine",
+          "text": "We're the Viking landers, a pair of twins! Viking 1 made NASA's first truly successful landing on Mars in July 1976, and Viking 2 joined in September.",
+          "simple": "We're two robot twins. One of us was the first NASA robot to land safely on Mars.",
+          "anim": "parachute_and_rockets",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-viking-landers-2.jpg"
+          },
+          "onScreen": "Viking 1 & 2 · Mars · 1976",
+          "source": "https://science.nasa.gov/mission/viking-1/"
+        },
+        {
+          "beat": "why",
+          "speaker": "machine",
+          "text": "We were sent to help answer one of the biggest questions ever: is there life on Mars?",
+          "simple": "We went to find out if anything lives on Mars.",
+          "anim": "parachute_and_rockets",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-viking-landers-2.jpg"
+          },
+          "onScreen": "Big question: life on Mars?",
+          "scene": {
+            "kind": "stage",
+            "action": "think",
+            "bubble": "microbe"
+          },
+          "source": "https://science.nasa.gov/mission/viking-1/"
+        },
+        {
+          "beat": "built",
+          "speaker": "machine",
+          "text": "A company called Martin Marietta built us landers, working for NASA's Langley Research Center. The whole Viking mission, two landers plus two spacecraft that circled Mars, cost roughly one billion dollars.",
+          "simple": "A company called Martin Marietta built us. Our whole mission cost roughly a billion dollars.",
+          "anim": "built",
+          "visual": {
+            "type": "data",
+            "anim": "cost"
+          },
+          "onScreen": "Built by Martin Marietta",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "Viking 1 launched on 20 August 1975 and landed on 20 July 1976. Viking 2 launched on 9 September 1975 and landed on 3 September 1976.",
+          "simple": "It took us almost a year to get to Mars and land.",
+          "anim": "journey",
+          "visual": {
+            "type": "data",
+            "anim": "journey",
+            "to": "mars",
+            "days": 335,
+            "launched": "20 August 1975",
+            "arrived": "20 July 1976",
+            "label": "Viking 1",
+            "rocket": "Titan IIIE-Centaur"
+          },
+          "onScreen": "About 11 months to landing",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C"
+        },
+        {
+          "beat": "journey",
+          "speaker": "quill",
+          "text": "Wait! If you're looking for life, what if you carried Earth germs by mistake?",
+          "simple": "But what if you carried germs from Earth?",
+          "anim": "journey",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-viking-landers-3.jpg"
+          }
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "Good thinking! Before launch, each of us was sealed inside a bioshield, so Earth germs couldn't reach Mars and confuse our tests.",
+          "simple": "We were sealed in a special cover before launch, so no Earth germs came along.",
+          "anim": "journey",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-viking-landers-3.jpg"
+          },
+          "onScreen": "Sealed in a bioshield",
+          "scene": {
+            "kind": "bioshield"
+          },
+          "source": "https://www.nasa.gov/history/45-years-ago-viking-1-and-2-off-to-mars/"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "Here's a drawing of one of us. Each lander weighs 572 kilograms and stands on landing legs. Two generators heated by plutonium-238 gave each of us power, so we didn't need sunshine.",
+          "simple": "This is a drawing of us. We had legs and special heater-generators for power.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/mars-viking-landers-4.jpeg",
+            "part": "rtg"
+          },
+          "onScreen": "572 kg each",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "We each had two cameras, a weather station on a little boom, a seismometer to feel for marsquakes, and a sampler arm to scoop up soil.",
+          "simple": "We had two cameras, a weather station, and an arm with a scoop.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/mars-viking-landers-3.jpg",
+            "part": "sampler-arm"
+          },
+          "source": "https://www.nasa.gov/history/45-years-ago-viking-1-and-2-off-to-mars/"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "Inside, we carried a tiny biology lab to test soil for signs of life, an instrument that searched the soil for carbon-based chemicals, and one that found out what the soil was made of.",
+          "simple": "Inside us was a tiny lab to test the dirt for life.",
+          "anim": "biology_lab_bubbles",
+          "visual": {
+            "type": "parts",
+            "image": "/images/mars-viking-landers-4.jpeg",
+            "part": "biology-lab"
+          },
+          "onScreen": "A lab inside each lander",
+          "source": "https://www.nasa.gov/history/45-years-ago-viking-1-and-2-off-to-mars/"
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "Seconds after landing, Viking 1 started sending the first picture ever taken on the surface of Mars. It arrived line by line, and you can see one of its own footpads!",
+          "simple": "Right after landing, Viking 1 took the very first photo on Mars. It showed its own foot!",
+          "anim": "first_photo_scan",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-viking-landers-1.jpg",
+            "reveal": "scan"
+          },
+          "onScreen": "First photo from the surface of Mars",
+          "scene": {
+            "kind": "stage",
+            "action": "scan"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C"
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "We scooped up soil with our arms, fed it into our labs, measured the weather, and together sent home 4,500 photos of our landing sites.",
+          "simple": "We scooped dirt, tested it, checked the weather and took thousands of photos.",
+          "anim": "arm_scoop_soil",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-viking-landers-2.jpg"
+          },
+          "onScreen": "4,500 photos",
+          "scene": {
+            "kind": "stage",
+            "action": "photo",
+            "counter": {
+              "to": 4500,
+              "label": "photos sent home"
+            }
+          },
+          "source": "https://www.nasa.gov/history/45-years-ago-viking-1-touches-down-on-mars/"
+        },
+        {
+          "beat": "found",
+          "speaker": "machine",
+          "text": "So, did we find life? One test gave a weak sign that might have been life. But another test found no carbon-based chemicals in the soil. Scientists still argue about it, so the big question is still open.",
+          "simple": "Did we find life? One test said maybe, another said no. Scientists still aren't sure.",
+          "anim": "biology_lab_bubbles",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-viking-landers-1.jpg"
+          },
+          "onScreen": "Life? Still an open question",
+          "scene": {
+            "kind": "stage",
+            "action": "dig",
+            "bubble": "microbe"
+          },
+          "source": "https://science.nasa.gov/mission/viking-1/"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "quill",
+          "text": "Why didn't you come back to Earth?",
+          "simple": "Why didn't you come home?",
+          "anim": "twins_on_globe",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-viking-landers-2.jpg"
+          }
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "Leaving Mars would need a big rocket, and we were built to stay and do science where we landed. Viking 2 worked until its batteries failed in April 1980, after 1,281 Mars days. Viking 1 kept going until November 1982.",
+          "simple": "We were built to stay. Viking 2 worked for almost four years, and Viking 1 for more than six.",
+          "anim": "twins_on_globe",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-viking-landers-2.jpg"
+          },
+          "onScreen": "Viking 2: 1980 · Viking 1: 1982",
+          "scene": {
+            "kind": "stage",
+            "action": "sleep"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-083C"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "Today Viking 1 stands in Chryse Planitia and Viking 2 in Utopia Planitia, about 6,460 kilometers apart. Each of us is now named after a scientist from our team.",
+          "simple": "We're still standing where we landed, far apart on Mars.",
+          "anim": "twins_on_globe",
+          "visual": {
+            "type": "data",
+            "anim": "map",
+            "body": "mars",
+            "pins": [
+              {
+                "label": "Viking 1",
+                "lat": 22.27,
+                "lonEast": 312.05
+              },
+              {
+                "label": "Viking 2",
+                "lat": 47.6673,
+                "lonEast": 134.2809
+              }
+            ]
+          },
+          "onScreen": "6,460 km apart",
+          "source": "https://science.nasa.gov/mission/viking-2/"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "Rovers that came after us, like Perseverance, keep asking our question: was Mars ever a place where life could live?",
+          "simple": "Rovers since then, like Perseverance, keep asking: could Mars ever have had life?",
+          "anim": "twins_on_globe",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-viking-landers-1.jpg"
+          },
+          "onScreen": "The question goes on",
+          "scene": {
+            "kind": "handoff",
+            "to": "perseverance"
+          },
+          "source": "https://science.nasa.gov/mission/mars-2020-perseverance/"
+        }
+      ],
+      "chips": [
+        {
+          "q": "Did you find life?",
+          "a": "One of our tests gave a weak sign that might have been life. But another test found no carbon-based chemicals in the soil. Scientists still argue about it, so the big question is still open."
+        },
+        {
+          "q": "Why were you left behind?",
+          "a": "Getting off Mars needs a big rocket. We were built to stay and do science where we landed."
+        },
+        {
+          "q": "Where are you now?",
+          "a": "Viking 1 is in Chryse Planitia and Viking 2 is in Utopia Planitia, about 6,460 km apart. We're both still standing where we landed."
+        }
+      ],
+      "lesson": {
+        "text": "Land safely, keep things clean, and ask the big question: was Mars ever home to life?",
+        "nextMission": "Later rovers, like Perseverance, keep asking whether Mars was once a place where life could live."
+      },
+      "backOnEarth": "Comparing Mars' weather and soil with Earth's helps scientists understand how planets change.",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-083C",
+        "https://science.nasa.gov/mission/viking-1/",
+        "https://science.nasa.gov/mission/viking-2/",
+        "https://www.nasa.gov/history/45-years-ago-viking-1-and-2-off-to-mars/",
+        "https://www.nasa.gov/history/45-years-ago-viking-1-touches-down-on-mars/",
+        "https://science.nasa.gov/mission/mars-2020-perseverance/"
+      ],
+      "images": [
+        {
+          "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/Viking_1_First_Image_From_Mars_1280.jpg",
+          "caption": "The very first picture ever taken on the surface of Mars, sent by Viking 1 on 20 July 1976. You can see one of its footpads.",
+          "credit": "NASA",
+          "sourcePage": "https://science.nasa.gov/mission/viking-1/",
+          "use": "hero",
+          "anim": "first_photo_scan",
+          "localPath": "/images/mars-viking-landers-1.jpg"
+        },
+        {
+          "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/PIA01522.jpg",
+          "caption": "Viking 2 on the surface of Mars at Utopia Planitia, seen by its own camera.",
+          "credit": "NASA/JPL-Caltech",
+          "sourcePage": "https://science.nasa.gov/mission/viking-2/",
+          "use": "fact-card",
+          "localPath": "/images/mars-viking-landers-2.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/viking_lander_model.jpg",
+          "caption": "A model of the Viking lander, showing its legs, dish antenna and sampler arm.",
+          "credit": "NASA",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C",
+          "use": "drawing-reference",
+          "note": "Model photographed on Earth.",
+          "localPath": "/images/mars-viking-landers-3.jpg",
+          "kind": "model"
+        },
+        {
+          "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/internal_resources/3514/Viking_Lander_Line_Drawing-1.jpeg",
+          "caption": "Labelled line drawing of the Viking lander and its instruments.",
+          "credit": "NASA",
+          "sourcePage": "https://science.nasa.gov/mission/viking-1/",
+          "use": "drawing-reference",
+          "note": "Ideal base for the animator's SVG with named parts.",
+          "localPath": "/images/mars-viking-landers-4.jpeg",
+          "kind": "diagram"
+        }
+      ],
+      "card": [
+        {
+          "label": "Viking 1 landed",
+          "value": "20 July 1976, Chryse Planitia"
+        },
+        {
+          "label": "Viking 2 landed",
+          "value": "3 September 1976, Utopia Planitia"
+        },
+        {
+          "label": "Weight",
+          "value": "572 kg each"
+        },
+        {
+          "label": "Power",
+          "value": "Two plutonium-238 generators each"
+        },
+        {
+          "label": "Viking 2 stopped",
+          "value": "April 1980"
+        },
+        {
+          "label": "Viking 1 stopped",
+          "value": "November 1982"
+        }
+      ],
+      "quillIntro": "Time to fly to Mars! Two twin landers have been standing here since 1976.",
+      "builtBy": [
+        {
+          "org": "Martin Marietta",
+          "role": "built the landers under contract to NASA's Langley Research Center",
+          "source": "https://www.nasa.gov/history/45-years-ago-viking-1-touches-down-on-mars/"
+        }
+      ],
+      "cost": {
+        "usd": 1000000000,
+        "covers": "the whole Viking project (roughly): two landers and two orbiters",
+        "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C"
+      },
+      "partsInfo": [
+        {
+          "id": "legs",
+          "name": "Landing legs",
+          "does": "Held us up on Mars"
+        },
+        {
+          "id": "cameras",
+          "name": "Two cameras",
+          "does": "Took pictures of Mars"
+        },
+        {
+          "id": "sampler-arm",
+          "name": "Sampler arm",
+          "does": "Scooped up soil"
+        },
+        {
+          "id": "weather-boom",
+          "name": "Weather station",
+          "does": "Measured Mars' weather"
+        },
+        {
+          "id": "rtg",
+          "name": "Plutonium generators",
+          "does": "Power without sunshine"
+        },
+        {
+          "id": "biology-lab",
+          "name": "Biology lab",
+          "does": "Tested soil for signs of life"
+        }
+      ]
+    },
+    {
+      "id": "sojourner",
+      "name": "Sojourner (Mars Pathfinder)",
+      "nssdcaId": "1996-068A",
+      "roverCatalogId": "MESURPR",
+      "body": "mars",
+      "type": "first Mars rover, with its lander",
+      "status": "silent",
+      "facts": {
+        "launched": "1996-12-04",
+        "launchVehicle": "Delta II 7925",
+        "landed": "1997-07-04",
+        "roverRolledOff": "1997-07-06",
+        "site": "Ares Vallis, near Chryse Planitia - an outflow channel carved by an ancient flood",
+        "lat": 19.33,
+        "lonEast": 326.45,
+        "lonWestAsGiven": 33.55,
+        "landerName": "Sagan Memorial Station",
+        "roverMassKg": 10.5,
+        "roverSize": "280 mm high, 630 mm long, 480 mm wide",
+        "wheels": "Six wheels on a rocker-bogie suspension",
+        "power": "0.2 square meters of solar cells, with backup batteries",
+        "computer": "Intel 80C85 8-bit processor, about 100,000 instructions per second",
+        "signalDelay": "10 to 15 minutes each way, so it needed its own hazard avoidance",
+        "landing": "Airbags inflated around the lander; it hit the ground at 18 m/s, bounced about 12 m high and at least 15 more times, rolling to a stop about 2.5 minutes later and 1 km away.",
+        "returned": "More than 16,500 images from the lander and 550 from the rover, plus more than 15 chemical analyses of rocks and soil",
+        "finding": "Results suggest Mars was once warm and wet.",
+        "lastContact": "1997-09-27",
+        "howItEnded": "Communications were lost for unknown reasons on 27 September 1997. The rover talked to Earth only through the lander."
+      },
+      "parts": [
+        "wheels",
+        "solar-panel",
+        "cameras",
+        "antenna",
+        "lander-petals",
+        "airbags"
+      ],
+      "animations": [
+        "airbag_bounce",
+        "petals_open",
+        "ramp_roll_off",
+        "signal_delay_clock",
+        "rock_check",
+        "lander_photo"
+      ],
+      "story": [
+        {
+          "beat": "hello",
+          "speaker": "machine",
+          "text": "Hi! I'm Sojourner, the very first rover to drive on Mars. I weigh just 10.5 kilograms, about as much as a small dog.",
+          "simple": "I'm the very first robot car on Mars. I'm tiny, about the size of a microwave oven.",
+          "anim": "lander_photo",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-sojourner-3.gif"
+          },
+          "onScreen": "Sojourner · Mars · 1997",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR"
+        },
+        {
+          "beat": "why",
+          "speaker": "machine",
+          "text": "I was a test. NASA wanted to prove that a small, low-cost rover could land on Mars and drive around.",
+          "simple": "I was a test, to show that a small robot car could work on Mars.",
+          "anim": "lander_photo",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-sojourner-3.gif"
+          },
+          "onScreen": "Job: prove a small rover can work",
+          "scene": {
+            "kind": "stage",
+            "action": "think",
+            "bubble": "rover"
+          },
+          "source": "https://science.nasa.gov/mission/mars-pathfinder/"
+        },
+        {
+          "beat": "built",
+          "speaker": "machine",
+          "text": "Engineers at NASA's Jet Propulsion Laboratory in California built me. Developing me cost about 25 million dollars, which is very little for a Mars mission.",
+          "simple": "Engineers in California built me. I cost about 25 million dollars, which is cheap for a Mars robot.",
+          "anim": "built",
+          "visual": {
+            "type": "data",
+            "anim": "cost"
+          },
+          "onScreen": "Built at NASA's JPL",
+          "source": "https://appel.nasa.gov/wp-content/uploads/2013/04/513858main_ASK_41s_mars.pdf"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "A Delta II rocket launched me on 4 December 1996. I rode to Mars tucked onto my lander, and we arrived on 4 July 1997.",
+          "simple": "A rocket launched me, and seven months later I reached Mars.",
+          "anim": "journey",
+          "visual": {
+            "type": "data",
+            "anim": "journey",
+            "to": "mars",
+            "days": 212,
+            "rocket": "Delta II",
+            "launched": "4 December 1996",
+            "arrived": "4 July 1997"
+          },
+          "onScreen": "7 months to Mars",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "Our landing was wild! Giant airbags puffed up around my lander. We hit the ground at 18 meters per second, bounced about 12 meters high, then bounced at least 15 more times.",
+          "simple": "We landed inside giant balloons and bounced like a beach ball, higher than a house!",
+          "anim": "airbag_bounce",
+          "visual": {
+            "type": "data",
+            "anim": "bounce",
+            "firstM": 12,
+            "more": 15
+          },
+          "onScreen": "Bounced 12 m high",
+          "scene": {
+            "kind": "landing",
+            "style": "airbags",
+            "board": "/images/mars-sojourner-1.jpg"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "About two and a half minutes later, we rolled to a stop about 1 kilometer away. Then the airbags deflated, and my lander opened up like a flower.",
+          "simple": "After lots of bouncing we rolled to a stop, and my lander opened up like a flower.",
+          "anim": "airbag_bounce",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-sojourner-1.jpg"
+          },
+          "onScreen": "Rolled 1 km to a stop",
+          "scene": {
+            "kind": "landing",
+            "style": "roll"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "Two days later, on 6 July 1997, I rolled down a ramp onto Mars.",
+          "simple": "Two days later, I drove down a ramp onto Mars.",
+          "anim": "ramp_roll_off",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-sojourner-4.gif"
+          },
+          "onScreen": "6 July 1997: wheels on Mars",
+          "scene": {
+            "kind": "landing",
+            "style": "ramp"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "I'm only 63 centimeters long and 28 centimeters high, about the size of a microwave oven. My six wheels sit on a rocker-bogie suspension, which lets them climb over rocks while I stay steady.",
+          "simple": "I'm about as big as a microwave oven, with six wheels that climb over rocks.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/mars-sojourner-3.gif",
+            "part": "wheels"
+          },
+          "onScreen": "63 cm long · 6 wheels",
+          "source": "https://spaceplace.nasa.gov/mars-sojourner/en/"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "On my back is a solar panel, just 0.2 square meters of solar cells, with backup batteries. My brain was a tiny computer that did about 100,000 instructions a second, much slower than a phone today.",
+          "simple": "A solar panel on my back made my power, and I had a tiny computer brain.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/mars-sojourner-3.gif",
+            "part": "solar-panel"
+          },
+          "onScreen": "0.2 m² of solar cells",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "I couldn't talk to Earth by myself. I sent my pictures and measurements to my lander, and the lander sent them home.",
+          "simple": "I passed my messages to my lander, and it sent them to Earth.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/mars-sojourner-4.gif",
+            "part": "antenna"
+          },
+          "onScreen": "Talked to Earth through the lander",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR"
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "Radio messages took 10 to 15 minutes to travel between Earth and Mars. If I waited for drivers on Earth to spot a rock, I'd already have bumped into it!",
+          "simple": "Messages took a long time to reach Earth, so drivers couldn't steer me quickly.",
+          "anim": "signal_delay_clock",
+          "visual": {
+            "type": "data",
+            "anim": "signal",
+            "minMinutes": 10,
+            "maxMinutes": 15
+          },
+          "onScreen": "10–15 minutes each way",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR"
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "So I had my own hazard avoidance: I spotted obstacles and steered around them by myself.",
+          "simple": "So I learned to spot rocks and drive around them by myself.",
+          "anim": "signal_delay_clock",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-sojourner-3.gif"
+          },
+          "onScreen": "Steering myself",
+          "scene": {
+            "kind": "stage",
+            "action": "swerve",
+            "extra": "rocks"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR"
+        },
+        {
+          "beat": "how",
+          "speaker": "quill",
+          "text": "But how could you tell what a rock was made of, just by driving up to it?",
+          "simple": "How did you know what the rocks were made of?",
+          "anim": "rock_check",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-sojourner-2.gif"
+          }
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "I drove up to rocks with funny nicknames, like Moe, and pressed my instrument against them to find out what they're made of. I did more than 15 chemical tests of rocks and soil.",
+          "simple": "I drove up to rocks and touched them with a special tool to find out what they're made of.",
+          "anim": "rock_check",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-sojourner-2.gif"
+          },
+          "onScreen": "15+ rock and soil tests",
+          "scene": {
+            "kind": "stage",
+            "action": "discover",
+            "counter": {
+              "to": 15,
+              "plus": true,
+              "label": "rock and soil tests"
+            }
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/planetary/marspath_images.html"
+        },
+        {
+          "beat": "found",
+          "speaker": "machine",
+          "text": "My lander and I sent home more than 16,500 pictures from the lander and 550 from me. Our results suggest that Mars was once warm and wet.",
+          "simple": "We sent home thousands of pictures, and clues that Mars was once warm and wet.",
+          "anim": "lander_photo",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-sojourner-6.jpg"
+          },
+          "onScreen": "Mars was once warm and wet",
+          "scene": {
+            "kind": "stage",
+            "action": "idle",
+            "extra": "flood"
+          },
+          "source": "https://science.nasa.gov/mission/mars-pathfinder/"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "On 27 September 1997, my lander stopped talking to Earth, and nobody knows why. Because I could only talk through my lander, I went quiet too.",
+          "simple": "One day my lander stopped talking to Earth, and so did I.",
+          "anim": "lander_photo",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-sojourner-5.jpg"
+          },
+          "onScreen": "Last contact: 27 September 1997",
+          "scene": {
+            "kind": "stage",
+            "action": "sleep"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "Spirit and Opportunity came next. They landed with airbags and drove on rocker-bogie wheels, just like me.",
+          "simple": "My bigger rover cousins came next, and they used airbags and wheels just like mine.",
+          "anim": "lander_photo",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-sojourner-1.jpg"
+          },
+          "onScreen": "Next: Spirit and Opportunity",
+          "scene": {
+            "kind": "handoff",
+            "to": "twins"
+          },
+          "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        }
+      ],
+      "chips": [
+        {
+          "q": "Why were you left behind?",
+          "a": "I was a test. NASA wanted to prove a small, low-cost rover could land and drive on Mars. Coming home was never part of the plan."
+        },
+        {
+          "q": "Why couldn't NASA just drive you?",
+          "a": "Messages took 10 to 15 minutes each way. If I waited for Earth to see a rock, I'd already have hit it, so I steered around hazards myself."
+        },
+        {
+          "q": "Who came after you?",
+          "a": "My bigger siblings, Spirit and Opportunity. They also landed using airbags, just like me."
+        }
+      ],
+      "lesson": {
+        "text": "Robots far from home must think for themselves, and airbags can make landing cheaper.",
+        "nextMission": "Spirit and Opportunity used airbag landings and rocker-bogie wheels too."
+      },
+      "backOnEarth": "Robots that steer themselves around obstacles are now a big part of technology on Earth too.",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR",
+        "https://science.nasa.gov/mission/mars-pathfinder/",
+        "https://appel.nasa.gov/wp-content/uploads/2013/04/513858main_ASK_41s_mars.pdf",
+        "https://spaceplace.nasa.gov/mars-sojourner/en/",
+        "https://nssdc.gsfc.nasa.gov/planetary/marspath_images.html",
+        "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+      ],
+      "images": [
+        {
+          "url": "https://science.nasa.gov/wp-content/uploads/2017/12/pia00621-pathfinder-and-sojourner-with-airbags-deflated.jpg",
+          "caption": "The Pathfinder lander on Mars with its airbags deflated, after bouncing to a stop.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://science.nasa.gov/mission/mars-pathfinder/",
+          "use": "hero",
+          "anim": "airbag_bounce",
+          "localPath": "/images/mars-sojourner-1.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/marspath_sol65.gif",
+          "caption": "Sojourner pressing its science instrument against a rock nicknamed Moe, to find out what it's made of.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/marspath_images.html",
+          "use": "scene",
+          "anim": "rock_check",
+          "localPath": "/images/mars-sojourner-2.gif"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/marspath_sol35l.gif",
+          "caption": "Sojourner next to a rock called Wedge, photographed by the lander.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/marspath_images.html",
+          "use": "fact-card",
+          "localPath": "/images/mars-sojourner-3.gif"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/marspath_sol39l.gif",
+          "caption": "The lander photographed by Sojourner's own camera. You can see the deflated airbags and the ramp the rover drove down.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/marspath_images.html",
+          "use": "scene",
+          "anim": "ramp_roll_off",
+          "localPath": "/images/mars-sojourner-4.gif"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/marspath_ss24_0.jpg",
+          "caption": "A real sunset on Mars, taken by Pathfinder. Near the Sun the sky looks blue because of the Martian dust.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/marspath_images.html",
+          "use": "scene",
+          "anim": "lander_photo",
+          "localPath": "/images/mars-sojourner-5.jpg"
+        },
+        {
+          "url": "https://science.nasa.gov/wp-content/uploads/2024/03/mars-pathfinder-presidential-panorama-lg.jpg",
+          "caption": "Panorama of the Ares Vallis landing site, stitched from about 100 lander pictures.",
+          "credit": "NASA/JPL-Caltech",
+          "sourcePage": "https://science.nasa.gov/mission/mars-pathfinder/",
+          "use": "background",
+          "localPath": "/images/mars-sojourner-6.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/sojourner.jpg",
+          "caption": "Sojourner rover.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR",
+          "use": "drawing-reference",
+          "note": "Check whether this photo was taken on Mars or during testing on Earth before captioning it for kids.",
+          "localPath": "/images/mars-sojourner-7.jpg"
+        }
+      ],
+      "card": [
+        {
+          "label": "Landed",
+          "value": "4 July 1997"
+        },
+        {
+          "label": "Where",
+          "value": "Ares Vallis, Mars (19.33°N, 33.55°W)"
+        },
+        {
+          "label": "Weight",
+          "value": "10.5 kg"
+        },
+        {
+          "label": "Size",
+          "value": "63 cm long, 28 cm high"
+        },
+        {
+          "label": "Signal delay to Earth",
+          "value": "10 to 15 minutes"
+        },
+        {
+          "label": "Last contact",
+          "value": "27 September 1997"
+        }
+      ],
+      "quillIntro": "Next, the smallest explorer on Mars. It arrived bouncing inside giant airbags.",
+      "builtBy": [
+        {
+          "org": "NASA's Jet Propulsion Laboratory (JPL)",
+          "role": "built the Mars Pathfinder lander and the Sojourner rover",
+          "source": "https://appel.nasa.gov/wp-content/uploads/2013/04/513858main_ASK_41s_mars.pdf"
+        }
+      ],
+      "cost": {
+        "usd": 25000000,
+        "covers": "developing the Sojourner rover",
+        "source": "https://appel.nasa.gov/wp-content/uploads/2013/04/513858main_ASK_41s_mars.pdf"
+      },
+      "partsInfo": [
+        {
+          "id": "wheels",
+          "name": "Six wheels",
+          "does": "Rocker-bogie: climbs over rocks"
+        },
+        {
+          "id": "solar-panel",
+          "name": "Solar panel",
+          "does": "0.2 m² of solar cells"
+        },
+        {
+          "id": "cameras",
+          "name": "Cameras",
+          "does": "Took 550 pictures"
+        },
+        {
+          "id": "antenna",
+          "name": "Antenna",
+          "does": "Talked to the lander"
+        },
+        {
+          "id": "lander-petals",
+          "name": "Lander petals",
+          "does": "Opened to let me out"
+        },
+        {
+          "id": "airbags",
+          "name": "Airbags",
+          "does": "Cushioned the landing"
+        }
+      ]
+    },
+    {
+      "id": "spirit-opportunity",
+      "name": "Spirit and Opportunity (Mars Exploration Rovers)",
+      "nssdcaId": [
+        "2003-027A",
+        "2003-032A"
+      ],
+      "body": "mars",
+      "type": "twin robot geologists",
+      "status": "silent",
+      "facts": {
+        "spirit": {
+          "alsoKnownAs": "MER-A",
+          "launched": "2003-06-10",
+          "landed": "2004-01-04",
+          "landedUSDate": "2004-01-03",
+          "site": "Gusev Crater, which looks like an old lakebed",
+          "lat": -14.572,
+          "lonEast": 175.478,
+          "stuck": "On 2009-04-23 it broke through a thin crust into sand; by 2009-05-01 it could no longer move.",
+          "lastTransmission": "2010-03-22",
+          "distanceKm": 7.73,
+          "howItEnded": "Stuck in sand, it couldn't tilt its solar panels toward the Sun to survive the winter."
+        },
+        "opportunity": {
+          "alsoKnownAs": "MER-B",
+          "nickname": "Oppy",
+          "launched": "2003-07-08",
+          "landed": "2004-01-25",
+          "landedUSDate": "2004-01-24",
+          "site": "Meridiani Planum (Terra Meridiani), the 'Hematite Site', inside a 20 m crater",
+          "lat": -1.946,
+          "lonEast": 354.473,
+          "finalCommunication": "2018-06-10",
+          "distanceKm": 45.16,
+          "howItEnded": "A planet-wide dust storm blanketed its solar panels in June 2018.",
+          "recordHandoff": "Its off-Earth driving record held until 2026-10-11, when NASA's Perseverance rover passed it at 45.22 km."
+        },
+        "massKg": 185,
+        "wheels": "Six wheels on a rocker-bogie suspension, each with its own motor",
+        "topSpeed": "About 3.75 cm per second",
+        "instruments": [
+          "Pancam panoramic camera",
+          "navigation cameras",
+          "Miniature Thermal Emission Spectrometer (Mini-TES)",
+          "Alpha Particle X-Ray Spectrometer (APXS)",
+          "Mossbauer spectrometer",
+          "Microscopic Imager",
+          "Rock Abrasion Tool (RAT)",
+          "hazard avoidance cameras"
+        ],
+        "mastHeightM": 1.4,
+        "keyScience": "By studying the rock record, Spirit and Opportunity confirmed that water was long-standing on the surface of Mars in ancient times.",
+        "hematite": "Hematite is an iron-rich mineral that typically forms in water.",
+        "designLife": "The primary mission was 90 sols (Mars days).",
+        "missionDeclaredOver": "verify: Opportunity's mission was declared over in February 2019 - confirm date from a NASA source.",
+        "verify": true
+      },
+      "parts": [
+        "wheels",
+        "solar-wings",
+        "mast-cameras",
+        "robotic-arm",
+        "rock-abrasion-tool",
+        "antenna"
+      ],
+      "animations": [
+        "airbag_bounce",
+        "twins_split_to_sides_of_mars",
+        "arm_grind_rock",
+        "hematite_blueberries",
+        "spirit_sand_trap",
+        "dust_storm",
+        "perseverance_passes_record"
+      ],
+      "story": [
+        {
+          "beat": "hello",
+          "speaker": "machine",
+          "text": "We're Spirit and Opportunity, twin robot geologists. A geologist studies rocks to learn a planet's story.",
+          "simple": "We're twin robot rock scientists. Rocks tell us the story of a planet.",
+          "anim": "twins_split_to_sides_of_mars",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-spirit-opportunity-7.jpg"
+          },
+          "onScreen": "Spirit & Opportunity · Mars · 2004",
+          "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        },
+        {
+          "beat": "why",
+          "speaker": "machine",
+          "text": "NASA sent us to read the rocks and soil of Mars for clues about water long ago.",
+          "simple": "We went to look for clues that Mars once had water.",
+          "anim": "twins_split_to_sides_of_mars",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-spirit-opportunity-7.jpg"
+          },
+          "onScreen": "Job: look for signs of water",
+          "scene": {
+            "kind": "stage",
+            "action": "think",
+            "bubble": "water"
+          },
+          "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        },
+        {
+          "beat": "built",
+          "speaker": "machine",
+          "text": "Engineers at NASA's Jet Propulsion Laboratory in California built and tested us. Building, launching and landing both of us, then running us for our first 90 Mars days, cost 820 million dollars.",
+          "simple": "Engineers in California built us. Both of us together cost 820 million dollars.",
+          "anim": "built",
+          "visual": {
+            "type": "data",
+            "anim": "cost"
+          },
+          "onScreen": "Built at NASA's JPL",
+          "source": "https://ntrs.nasa.gov/api/citations/20090014114/downloads/20090014114.pdf"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "Two Delta II rockets launched us separately in the summer of 2003. Spirit landed on 4 January 2004, and Opportunity three weeks later, on 25 January.",
+          "simple": "Two rockets launched us, and about seven months later we landed on Mars.",
+          "anim": "journey",
+          "visual": {
+            "type": "data",
+            "anim": "journey",
+            "to": "mars",
+            "days": 208,
+            "rocket": "Delta II",
+            "launched": "10 June 2003",
+            "arrived": "4 January 2004",
+            "label": "Spirit"
+          },
+          "onScreen": "About 7 months to Mars",
+          "source": "https://ntrs.nasa.gov/api/citations/20090014114/downloads/20090014114.pdf"
+        },
+        {
+          "beat": "journey",
+          "speaker": "machine",
+          "text": "We landed on opposite sides of Mars, bouncing inside airbags like Sojourner. Spirit landed in Gusev Crater, which looks like an old lakebed. Opportunity rolled into a small crater at Meridiani Planum.",
+          "simple": "We landed far apart, on opposite sides of Mars, bouncing in airbags.",
+          "anim": "twins_split_to_sides_of_mars",
+          "visual": {
+            "type": "data",
+            "anim": "map",
+            "body": "mars",
+            "pins": [
+              {
+                "label": "Spirit",
+                "lat": -14.572,
+                "lonEast": 175.478
+              },
+              {
+                "label": "Opportunity",
+                "lat": -1.946,
+                "lonEast": 354.473
+              }
+            ]
+          },
+          "onScreen": "Opposite sides of Mars",
+          "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "Each of us weighs 185 kilograms. We have six wheels on a rocker-bogie suspension, each with its own motor. Our top speed was only about 3.75 centimeters per second. Slow, but safe!",
+          "simple": "We each have six wheels with their own motors. We drive slowly and carefully.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/mars-spirit-opportunity-5.jpg",
+            "part": "wheels"
+          },
+          "onScreen": "185 kg · 6 wheels",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "Our cameras sit on a mast 1.4 meters tall, so we could look across the land in color and in 3D, like a person standing up to look around.",
+          "simple": "Our cameras are up on a tall pole, so we can see far, like you standing on tiptoe.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/mars-spirit-opportunity-7.jpg",
+            "part": "mast-cameras"
+          },
+          "onScreen": "Camera mast: 1.4 m tall",
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "Our wing-shaped solar panels made electricity from sunlight. That worked well, until Mars dust covered them.",
+          "simple": "Our solar wings made power from sunlight, until dust covered them.",
+          "anim": "parts",
+          "visual": {
+            "type": "parts",
+            "image": "/images/mars-spirit-opportunity-5.jpg",
+            "part": "solar-wings"
+          },
+          "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        },
+        {
+          "beat": "parts",
+          "speaker": "machine",
+          "text": "On our robotic arm we carried a microscope camera, two instruments that find out what rocks are made of, and a Rock Abrasion Tool.",
+          "simple": "Our arm held a microscope and tools to study rocks.",
+          "anim": "arm_grind_rock",
+          "visual": {
+            "type": "parts",
+            "image": "/images/mars-spirit-opportunity-5.jpg",
+            "part": "robotic-arm"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A"
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "The Rock Abrasion Tool grinds away the dusty outside of a rock so we can see inside. The first rock Opportunity ground into, called McKittrick, got a hole about 4 millimeters deep.",
+          "simple": "Our grinder scraped off the dusty outside of rocks so we could see inside.",
+          "anim": "arm_grind_rock",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-spirit-opportunity-4.jpg",
+            "part": "rock-abrasion-tool"
+          },
+          "onScreen": "Ground 4 mm into rock",
+          "scene": {
+            "kind": "stage",
+            "action": "grind"
+          },
+          "source": "https://science.nasa.gov/photojournal/opportunity-slices-into-the-surface-of-mars/"
+        },
+        {
+          "beat": "found",
+          "speaker": "machine",
+          "text": "Opportunity spotted shiny little spheres in the rocks, and found a mineral called hematite. Hematite is rich in iron, and it usually forms in water.",
+          "simple": "Opportunity found a mineral that usually forms in water. A big clue!",
+          "anim": "hematite_blueberries",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-spirit-opportunity-3.jpg"
+          },
+          "onScreen": "Hematite: usually forms in water",
+          "scene": {
+            "kind": "stage",
+            "action": "discover",
+            "extra": "spheres"
+          },
+          "source": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A"
+        },
+        {
+          "beat": "found",
+          "speaker": "machine",
+          "text": "By studying the rocks, we confirmed that water lasted on the surface of Mars a long time ago.",
+          "simple": "The rocks showed us that long ago, Mars had water for a long time.",
+          "anim": "hematite_blueberries",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-spirit-opportunity-2.jpg"
+          },
+          "onScreen": "Water lasted on ancient Mars",
+          "scene": {
+            "kind": "stage",
+            "action": "idle",
+            "extra": "flood"
+          },
+          "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        },
+        {
+          "beat": "how",
+          "speaker": "machine",
+          "text": "We were planned to work for 90 Mars days. Spirit kept going for about six years, and Opportunity for more than fourteen!",
+          "simple": "We were meant to work for three months. We kept going for years and years!",
+          "anim": "perseverance_passes_record",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-spirit-opportunity-2.jpg"
+          },
+          "onScreen": "Planned: 90 days · Lasted: years",
+          "source": "https://ntrs.nasa.gov/api/citations/20090014114/downloads/20090014114.pdf",
+          "scene": {
+            "kind": "stage",
+            "action": "drive",
+            "counter": {
+              "to": 14,
+              "plus": true,
+              "label": "years Opportunity kept going"
+            }
+          }
+        },
+        {
+          "beat": "stayed",
+          "speaker": "quill",
+          "text": "So what happened to you both?",
+          "simple": "What happened to you?",
+          "anim": "spirit_sand_trap",
+          "visual": {
+            "type": "photo",
+            "image": "/images/mars-spirit-opportunity-1.jpg"
+          }
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "In 2009 Spirit broke through a thin crust into soft sand and got stuck. It couldn't tilt its solar panels toward the Sun for the winter, and its last message came on 22 March 2010, after driving 7.73 kilometers.",
+          "simple": "Spirit got stuck in soft sand, couldn't get enough sunlight, and went quiet in 2010.",
+          "anim": "spirit_sand_trap",
+          "visual": {
+            "type": "data",
+            "anim": "stuck"
+          },
+          "onScreen": "Spirit: stuck 2009 · quiet 2010",
+          "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "Opportunity drove 45.16 kilometers, a record for any vehicle beyond Earth. In June 2018 a planet-wide dust storm covered its solar panels, and its last message came on 10 June.",
+          "simple": "Opportunity drove farther than any car on another world. Then a giant dust storm blocked the Sun, and it went quiet in 2018.",
+          "anim": "dust_storm",
+          "visual": {
+            "type": "data",
+            "anim": "dust"
+          },
+          "onScreen": "Opportunity: 45.16 km",
+          "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        },
+        {
+          "beat": "stayed",
+          "speaker": "machine",
+          "text": "Opportunity's record lasted until 11 October 2026, when the Perseverance rover passed it at 45.22 kilometers. Our journey continues through the rovers that came after us.",
+          "simple": "This year a newer rover called Perseverance finally drove even farther. Our journey continues through new rovers!",
+          "anim": "perseverance_passes_record",
+          "visual": {
+            "type": "data",
+            "anim": "odometer",
+            "rows": [
+              {
+                "label": "Spirit",
+                "km": 7.73
+              },
+              {
+                "label": "Opportunity",
+                "km": 45.16
+              },
+              {
+                "label": "Perseverance (11 Oct 2026)",
+                "km": 45.22
+              }
+            ]
+          },
+          "onScreen": "Perseverance: 45.22 km",
+          "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+        }
+      ],
+      "chips": [
+        {
+          "q": "Why were you left behind?",
+          "a": "Flying back from Mars would need a whole rocket. We were built to explore as long as we could, then stay."
+        },
+        {
+          "q": "Are you still working?",
+          "a": "No. Spirit's last message was on 22 March 2010. Opportunity's was on 10 June 2018, during a huge dust storm."
+        },
+        {
+          "q": "Who beat your record?",
+          "a": "NASA's Perseverance rover. On 11 October 2026 it passed 45.22 km, just beyond Opportunity's 45.16 km."
+        }
+      ],
+      "lesson": {
+        "text": "Solar power and soft sand are real dangers. Plan for dust storms and test the ground before you drive.",
+        "nextMission": "Perseverance, which passed Opportunity's driving record in October 2026."
+      },
+      "backOnEarth": "Finding where water once flowed on Mars helps scientists understand how a planet can change from wet to dry.",
+      "sources": [
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A",
+        "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A",
+        "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+        "https://ntrs.nasa.gov/api/citations/20090014114/downloads/20090014114.pdf",
+        "https://www.jpl.nasa.gov/images/pia04834-mars-exploration-rover-1/",
+        "https://science.nasa.gov/photojournal/opportunity-slices-into-the-surface-of-mars/"
+      ],
+      "images": [
+        {
+          "url": "https://science.nasa.gov/wp-content/uploads/2024/03/sol016-lander-pan-pia05117.jpg",
+          "caption": "Spirit's empty landing platform in Gusev Crater, surrounded by crumpled airbags, after the rover drove off.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+          "use": "hero",
+          "anim": "airbag_bounce",
+          "localPath": "/images/mars-spirit-opportunity-1.jpg"
+        },
+        {
+          "url": "https://science.nasa.gov/wp-content/uploads/2024/03/sol058-to-060-lion-king-pia05755.jpg",
+          "caption": "Opportunity's view of Eagle Crater, where it landed, and the plains of Meridiani Planum.",
+          "credit": "NASA/JPL/Cornell",
+          "sourcePage": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+          "use": "background",
+          "anim": "twins_split_to_sides_of_mars",
+          "localPath": "/images/mars-spirit-opportunity-2.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/merb_spheres.jpg",
+          "caption": "Shiny little spheres in the rock at Meridiani, seen by Opportunity's microscope camera. This area is only about 3 cm across.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/mars/mars_exploration_rovers/merb_images.html",
+          "use": "scene",
+          "note": "Caption the science carefully: check a NASA source before saying what the spheres are made of.",
+          "anim": "hematite_blueberries",
+          "localPath": "/images/mars-spirit-opportunity-3.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/merb_rat_mckittrick.jpg",
+          "caption": "The first rock Opportunity ground into on Mars, a rock called McKittrick. The tool cut about 4 mm deep.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/mars/mars_exploration_rovers/merb_images.html",
+          "use": "scene",
+          "anim": "arm_grind_rock",
+          "localPath": "/images/mars-spirit-opportunity-4.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/mera_arm_adirondack.jpg",
+          "caption": "Spirit reaching its robotic arm toward a rock nicknamed Adirondack.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/mars/mars_exploration_rovers/mera_images.html",
+          "use": "scene",
+          "anim": "arm_grind_rock",
+          "localPath": "/images/mars-spirit-opportunity-5.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/mera_adirondack_rat_hole.jpg",
+          "caption": "The hole Spirit's Rock Abrasion Tool made in Adirondack, so scientists could see inside the rock.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/mars/mars_exploration_rovers/mera_images.html",
+          "use": "fact-card",
+          "localPath": "/images/mars-spirit-opportunity-6.jpg"
+        },
+        {
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/image/mera_rollout_02.jpg",
+          "caption": "Spirit's first views after rolling onto Mars, including a look back at its landing platform.",
+          "credit": "NASA/JPL",
+          "sourcePage": "https://nssdc.gsfc.nasa.gov/planetary/mars/mars_exploration_rovers/mera_images.html",
+          "use": "scene",
+          "localPath": "/images/mars-spirit-opportunity-7.jpg"
+        },
+        {
+          "url": "https://science.nasa.gov/wp-content/uploads/2024/03/mer-bythenumbers-infographic-feb2019.jpg",
+          "caption": "NASA infographic: Spirit and Opportunity by the numbers.",
+          "credit": "NASA/JPL-Caltech",
+          "sourcePage": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+          "use": "finale",
+          "note": "Made in 2019, before Perseverance passed Opportunity's record in October 2026.",
+          "localPath": "/images/mars-spirit-opportunity-8.jpg",
+          "kind": "diagram"
+        }
+      ],
+      "card": [
+        {
+          "label": "Landed",
+          "value": "January 2004"
+        },
+        {
+          "label": "Spirit's home",
+          "value": "Gusev Crater, Mars"
+        },
+        {
+          "label": "Opportunity's home",
+          "value": "Meridiani Planum, Mars"
+        },
+        {
+          "label": "Weight",
+          "value": "185 kg each"
+        },
+        {
+          "label": "Distance driven",
+          "value": "Spirit 7.73 km · Opportunity 45.16 km"
+        },
+        {
+          "label": "Last contact",
+          "value": "Spirit 22 March 2010 · Opportunity 10 June 2018"
+        }
+      ],
+      "quillIntro": "Last stop: two famous twin rovers. One of them set a driving record that lasted until this year!",
+      "builtBy": [
+        {
+          "org": "NASA's Jet Propulsion Laboratory (JPL)",
+          "role": "assembled and tested both rovers",
+          "source": "https://www.jpl.nasa.gov/images/pia04834-mars-exploration-rover-1/"
+        }
+      ],
+      "cost": {
+        "usd": 820000000,
+        "covers": "building, launching, landing and operating both rovers for the first 90 sols",
+        "source": "https://ntrs.nasa.gov/api/citations/20090014114/downloads/20090014114.pdf"
+      },
+      "partsInfo": [
+        {
+          "id": "wheels",
+          "name": "Six wheels",
+          "does": "Each with its own motor"
+        },
+        {
+          "id": "mast-cameras",
+          "name": "Mast cameras",
+          "does": "1.4 m up: color and 3D"
+        },
+        {
+          "id": "solar-wings",
+          "name": "Solar wings",
+          "does": "Electricity from sunlight"
+        },
+        {
+          "id": "robotic-arm",
+          "name": "Robotic arm",
+          "does": "Microscope and rock tools"
+        },
+        {
+          "id": "rock-abrasion-tool",
+          "name": "Rock Abrasion Tool",
+          "does": "Grinds into rock"
+        },
+        {
+          "id": "antenna",
+          "name": "Antennas",
+          "does": "Radio link to Earth"
+        }
+      ]
+    }
+  ]
+}

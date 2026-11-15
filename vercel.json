@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/*.ts": {
+      "includeFiles": "src/data/machines.json",
+      "maxDuration": 30
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# Normalise text files; keep the Windows deploy script in Windows line endings.
+* text=auto
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.mp3 binary
+*.mp4 binary
+*.pdf binary

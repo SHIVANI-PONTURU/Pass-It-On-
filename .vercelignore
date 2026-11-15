@@ -1,0 +1,9 @@
+# Files that stay off the live site (Vercel). Keys are never uploaded.
+.env
+.env.*
+scripts
+docs
+node_modules
+dist
+.vercel
+setup-log.txt

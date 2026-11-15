@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  background: #000;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* The space scenery (SpaceBackdrop) sits behind the pages, so the body itself stays see-through. */
+  background: transparent;
+  font-family: ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Quill animations */
+@keyframes quill-blink { 0%, 92%, 100% { transform: scaleY(1); } 96% { transform: scaleY(0.1); } }
+@keyframes quill-talk { 0%, 100% { transform: scaleY(0.35); } 50% { transform: scaleY(1); } }
+@keyframes quill-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+@keyframes quill-glow { 0%, 100% { r: 7; } 50% { r: 9; } }
+@keyframes wave { 0%, 100% { transform: scaleY(0.3); } 50% { transform: scaleY(1); } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .quill-eyes { animation: quill-blink 4s infinite; transform-box: fill-box; transform-origin: center; }
+  .quill-talk { animation: quill-talk 0.28s infinite; transform-box: fill-box; transform-origin: center; }
+  .quill-pulse { animation: quill-pulse 0.9s infinite; }
+  .quill-glow { animation: quill-glow 1.2s infinite; }
+  .wave-bar { animation: wave 0.9s infinite; transform-origin: bottom; }
+}
+
+/* Rockets drift gently up and down */
+@keyframes rocket-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+@media (prefers-reduced-motion: no-preference) {
+  .space-rocket, .start-rocket { animation: rocket-bob 4.5s ease-in-out infinite; }
+}
